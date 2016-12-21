@@ -7,8 +7,11 @@
       <div class="outer-container">
         @include('includes.sidemenu')
 
-        <div class="inner-container container">
+        <div class="inner-container">
+          <div class="container">
             @yield('content')
+          </div>
+
         </div>
 
       </div>
