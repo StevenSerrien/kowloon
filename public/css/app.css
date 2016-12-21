@@ -1,5 +1,31 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+/**
+ * @license
+ * MyFonts Webfont Build ID 3323541, 2016-12-21T11:24:58-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Choplin-ExtraLight-DEMO by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/choplin/extra-light-demo/
+ * Copyright: Copyright &#x00A9; 2014 by Ren&#x00E9; Bieder. All rights reserved.
+ * Licensed pageviews: Unlimited
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3323541
+ *
+ * © 2016 MyFonts Inc
+*/
+@font-face {
+  font-family: 'Choplin-ExtraLight-DEMO';
+  src: url("fonts/32B695_0_0.eot");
+  src: url("fonts/32B695_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/32B695_0_0.woff2") format("woff2"), url("fonts/32B695_0_0.woff") format("woff"), url("fonts/32B695_0_0.ttf") format("truetype");
+}
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -7686,6 +7712,35 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+nav#sidemenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 100%;
+  background-color: #323232;
+  color: white;
+}
+
+nav#sidemenu li {
+  list-style: none;
+  display: block;
+  font-family: "Choplin-ExtraLight-DEMO";
+}
+
+nav#sidemenu ul {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+nav#sidemenu .brand-name {
+  font-family: "Choplin-ExtraLight-DEMO";
+  font-size: 2em;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 
 /*# sourceMappingURL=app.css.map */

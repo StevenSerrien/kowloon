@@ -3,7 +3,40 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 
 // Variables
+
+@import "fonts/choplin-el";
 @import "variables";
+
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+nav#sidemenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 100%;
+  background-color: $sidemenu-bg;
+  color: white;
+}
+
+nav#sidemenu li {
+  list-style: none;
+  display: block;
+  font-family: $font-secundary;
+}
+
+nav#sidemenu ul {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+nav#sidemenu .brand-name {
+  font-family: $font-secundary;
+  font-size: 2em;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
