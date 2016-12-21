@@ -6,6 +6,7 @@
 
 @import "fonts/choplin-el";
 @import "variables";
+@import "sprites/sprites";
 
 
 // Bootstrap
@@ -22,10 +23,20 @@ nav#sidemenu {
   color: white;
 }
 
+nav#sidemenu.sidemenu-collapsed {
+  width: 60px;
+}
+
 nav#sidemenu li {
   list-style: none;
   display: block;
   font-family: $font-secundary;
+  width: 100%;
+  margin-top: 20px;
+
+  // &:hover {
+  //   background-color: black;
+  // }
 }
 
 nav#sidemenu ul {
@@ -39,4 +50,5 @@ nav#sidemenu .brand-name {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  color: $sidemenu-icon-color;
 }

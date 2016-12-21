@@ -26,6 +26,128 @@
   src: url("fonts/32B695_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/32B695_0_0.woff2") format("woff2"), url("fonts/32B695_0_0.woff") format("woff"), url("fonts/32B695_0_0.ttf") format("truetype");
 }
 
+.cat-icon-hover, .dog-icon, .dog-icon-hover, .faq-icon, .faq-icon-hover, .fish-icon, .fish-icon-hover, .hamburger-icon, .hamster-icon, .hamster-icon-hover, .owl-icon, .owl-icon-hover, .search-icon, .search-icon-hover, .cat-icon {
+  background: url(sprites/sprites.png) no-repeat;
+}
+
+.cat-icon {
+  background-position: 0 -301px;
+  width: 58px;
+  height: 40px;
+}
+
+.cat-icon:hover {
+  background-position: -50px -300px;
+}
+
+.cat-icon-hover {
+  background-position: -50px -300px;
+  width: 58px;
+  height: 40px;
+}
+
+.dog-icon {
+  background-position: 0 -250px;
+  width: 58px;
+  height: 40px;
+}
+
+.dog-icon:hover {
+  background-position: -51px -251px;
+}
+
+.dog-icon-hover {
+  background-position: -51px -251px;
+  width: 58px;
+  height: 40px;
+}
+
+.faq-icon {
+  background-position: 0 -200px;
+  width: 58px;
+  height: 40px;
+}
+
+.faq-icon:hover {
+  background-position: -50px -200px;
+}
+
+.faq-icon-hover {
+  background-position: -50px -200px;
+  width: 58px;
+  height: 40px;
+}
+
+.fish-icon {
+  background-position: 0 -151px;
+  width: 58px;
+  height: 40px;
+}
+
+.fish-icon:hover {
+  background-position: -50px -151px;
+}
+
+.fish-icon-hover {
+  background-position: -50px -151px;
+  width: 58px;
+  height: 40px;
+}
+
+.hamburger-icon {
+  background-position: 0 -352px;
+  width: 58px;
+  height: 40px;
+}
+
+.hamster-icon {
+  background-position: 0 -102px;
+  width: 58px;
+  height: 40px;
+}
+
+.hamster-icon:hover {
+  background-position: -50px -101px;
+}
+
+.hamster-icon-hover {
+  background-position: -50px -101px;
+  width: 58px;
+  height: 40px;
+}
+
+.owl-icon {
+  background-position: 0 -51px;
+  width: 58px;
+  height: 40px;
+}
+
+.owl-icon:hover {
+  background-position: -50px -52px;
+}
+
+.owl-icon-hover {
+  background-position: -50px -52px;
+  width: 58px;
+  height: 40px;
+}
+
+.search-icon {
+  background-position: 0 0;
+  width: 58px;
+  height: 40px;
+}
+
+.search-icon:hover {
+  background-position: -49px 0;
+}
+
+.search-icon-hover {
+  background-position: -49px 0;
+  width: 58px;
+  height: 40px;
+}
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -7724,10 +7846,16 @@ nav#sidemenu {
   color: white;
 }
 
+nav#sidemenu.sidemenu-collapsed {
+  width: 60px;
+}
+
 nav#sidemenu li {
   list-style: none;
   display: block;
   font-family: "Choplin-ExtraLight-DEMO";
+  width: 100%;
+  margin-top: 20px;
 }
 
 nav#sidemenu ul {
@@ -7741,6 +7869,7 @@ nav#sidemenu .brand-name {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  color: #9f9f9f;
 }
 
 /*# sourceMappingURL=app.css.map */
