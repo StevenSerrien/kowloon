@@ -13,6 +13,7 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 
+
 nav#sidemenu {
   position: absolute;
   top: 0;
@@ -27,12 +28,33 @@ nav#sidemenu.sidemenu-collapsed {
   width: 60px;
 }
 
+nav#sidemenu ul a:first-child {
+  background-color: black;
+  margin-top: 0px;
+}
+
+.sidemenu-item {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 10px;
+  &:hover {
+
+  }
+}
+
+.sidemenu-item.light {
+  &:hover {
+    background-color: white;
+  }
+}
+
 nav#sidemenu li {
   list-style: none;
   display: block;
   font-family: $font-secundary;
   width: 100%;
-  margin-top: 20px;
+
 
   // &:hover {
   //   background-color: black;
@@ -49,6 +71,6 @@ nav#sidemenu .brand-name {
   font-size: 2em;
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 15px;
   color: $sidemenu-icon-color;
 }

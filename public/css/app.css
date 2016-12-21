@@ -7850,12 +7850,27 @@ nav#sidemenu.sidemenu-collapsed {
   width: 60px;
 }
 
+nav#sidemenu ul a:first-child {
+  background-color: black;
+  margin-top: 0px;
+}
+
+.sidemenu-item {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 10px;
+}
+
+.sidemenu-item.light:hover {
+  background-color: white;
+}
+
 nav#sidemenu li {
   list-style: none;
   display: block;
   font-family: "Choplin-ExtraLight-DEMO";
   width: 100%;
-  margin-top: 20px;
 }
 
 nav#sidemenu ul {
@@ -7868,7 +7883,7 @@ nav#sidemenu .brand-name {
   font-size: 2em;
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 15px;
   color: #9f9f9f;
 }
 
