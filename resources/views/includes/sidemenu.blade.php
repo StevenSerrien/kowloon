@@ -24,7 +24,5 @@
     <li class='hamster-icon'></li><span class="expanded-element">Small animals</span>
     </a>
   </ul>
-  <span class='brand-name collapsed-element'>
-    K
-  </span>
+  <span class='brand-name collapsed-element'>K<span class='brand-name-expanded'>OWLOON</span></span>
 </nav>

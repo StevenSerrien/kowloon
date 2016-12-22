@@ -7852,9 +7852,19 @@ nav#sidemenu.sidemenu-collapsed {
   -webkit-transition: width 0.2s ease-in-out;
 }
 
+nav#sidemenu.sidemenu-collapsed .brand-name-expanded {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+}
+
 nav#sidemenu.sidemenu-expanded {
   width: 160px;
   -webkit-transition: width 0.2s ease-in-out;
+}
+
+nav#sidemenu.sidemenu-expanded .brand-name-expanded {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-in-out;
 }
 
 nav#sidemenu ul a:first-child {
@@ -7912,8 +7922,9 @@ nav#sidemenu .brand-name {
   font-size: 2em;
   position: absolute;
   bottom: 10px;
-  left: 15px;
+  left: 18px;
   color: #9f9f9f;
+  font-size: 1.5em;
 }
 
 .inner-container {

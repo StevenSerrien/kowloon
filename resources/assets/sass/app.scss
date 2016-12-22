@@ -28,11 +28,20 @@ nav#sidemenu {
 nav#sidemenu.sidemenu-collapsed {
   width: 60px;
   -webkit-transition: width 0.2s ease-in-out;
+
+  .brand-name-expanded {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+  }
 }
 
 nav#sidemenu.sidemenu-expanded {
   width: $sidemenu-expanded-width;
   -webkit-transition: width 0.2s ease-in-out;
+  .brand-name-expanded {
+    opacity: 1;
+    -webkit-transition: opacity 0.2s ease-in-out;
+  }
 }
 
 nav#sidemenu ul a:first-child {
@@ -99,8 +108,9 @@ nav#sidemenu .brand-name {
   font-size: 2em;
   position: absolute;
   bottom: 10px;
-  left: 15px;
+  left: 18px;
   color: $sidemenu-icon-color;
+  font-size: 1.5em;
 }
 
 .inner-container {
