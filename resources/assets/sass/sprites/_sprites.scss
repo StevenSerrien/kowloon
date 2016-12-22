@@ -2,6 +2,36 @@
 	background: url(sprites/sprites.png) no-repeat;
 }
 
+// MAKE SURE THE ITEM GETS HIGHLIGHTED WHEN HOVERING OVER THE A HREF FIELD
+.sidemenu-item {
+
+  &:hover {
+    .cat-icon{
+      background-position: -50px -300px;
+    }
+    .dog-icon {
+      background-position: -51px -251px ;
+    }
+    .fish-icon {
+      background-position: -50px -151px ;
+    }
+    .faq-icon {
+      background-position: -50px -200px;
+    }
+    .hamster-icon {
+      background-position: -50px -101px ;
+    }
+    .owl-icon {
+      background-position: -50px -52px;
+    }
+    .search-icon {
+      background-position: -49px 0;
+
+    }
+  }
+}
+
+// END OF ITEM A HREF HIGHTLIGHT
 .cat-icon{
 	background-position: 0 -301px ;
 	width: 58px;
@@ -107,7 +137,7 @@
 	height: 40px;
   &:hover {
     background-position: -49px 0;
-    
+
   }
 }
 

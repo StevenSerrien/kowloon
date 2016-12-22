@@ -1,0 +1,99 @@
+
+nav#sidemenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 100%;
+  background-color: $sidemenu-bg;
+  color: white;
+  overflow:hidden;
+}
+
+nav#sidemenu.sidemenu-collapsed {
+  width: 60px;
+  -webkit-transition: width 0.2s ease-in-out;
+
+  .brand-name-expanded {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+  }
+}
+
+nav#sidemenu.sidemenu-expanded {
+  width: $sidemenu-expanded-width;
+  -webkit-transition: width 0.2s ease-in-out;
+  .brand-name-expanded {
+    opacity: 1;
+    -webkit-transition: opacity 0.2s ease-in-out;
+  }
+}
+
+nav#sidemenu ul a:first-child {
+  background-color: black;
+  margin-top: 0px;
+}
+
+
+
+.sidemenu-item {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 10px;
+  overflow: hidden;
+  width: $sidemenu-expanded-width;
+
+  .expanded-element {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -15px;
+    padding-left: 2px;
+  }
+  .expanded-element.alternative {
+    color: $sidemenu-icon-color;
+  }
+}
+
+.sidemenu-item.light {
+  &:hover {
+    background-color: white;
+  }
+}
+
+nav#sidemenu {
+  ul {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  li {
+  list-style: none;
+  display: inline-block;
+  font-family: $font-secundary;
+  width: $sidemenu-item-width;
+
+
+  // &:hover {
+  //   background-color: black;
+  // }
+  }
+  .m-expand {
+    width: $sidemenu-item-width;
+  }
+
+  .expanded-element {
+    display: inline-block;
+  }
+
+  .brand-name {
+    font-family: $font-secundary;
+    font-size: 2em;
+    position: absolute;
+    bottom: 10px;
+    left: 18px;
+    color: $sidemenu-icon-color;
+    font-size: 1.5em;
+  }
+}

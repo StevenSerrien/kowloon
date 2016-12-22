@@ -30,6 +30,34 @@
   background: url(sprites/sprites.png) no-repeat;
 }
 
+.sidemenu-item:hover .cat-icon {
+  background-position: -50px -300px;
+}
+
+.sidemenu-item:hover .dog-icon {
+  background-position: -51px -251px;
+}
+
+.sidemenu-item:hover .fish-icon {
+  background-position: -50px -151px;
+}
+
+.sidemenu-item:hover .faq-icon {
+  background-position: -50px -200px;
+}
+
+.sidemenu-item:hover .hamster-icon {
+  background-position: -50px -101px;
+}
+
+.sidemenu-item:hover .owl-icon {
+  background-position: -50px -52px;
+}
+
+.sidemenu-item:hover .search-icon {
+  background-position: -49px 0;
+}
+
 .cat-icon {
   background-position: 0 -301px;
   width: 58px;
@@ -146,6 +174,97 @@
   background-position: -49px 0;
   width: 58px;
   height: 40px;
+}
+
+nav#sidemenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 100%;
+  background-color: #323232;
+  color: white;
+  overflow: hidden;
+}
+
+nav#sidemenu.sidemenu-collapsed {
+  width: 60px;
+  -webkit-transition: width 0.2s ease-in-out;
+}
+
+nav#sidemenu.sidemenu-collapsed .brand-name-expanded {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+}
+
+nav#sidemenu.sidemenu-expanded {
+  width: 160px;
+  -webkit-transition: width 0.2s ease-in-out;
+}
+
+nav#sidemenu.sidemenu-expanded .brand-name-expanded {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-in-out;
+}
+
+nav#sidemenu ul a:first-child {
+  background-color: black;
+  margin-top: 0px;
+}
+
+.sidemenu-item {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 10px;
+  overflow: hidden;
+  width: 160px;
+}
+
+.sidemenu-item .expanded-element {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: -15px;
+  padding-left: 2px;
+}
+
+.sidemenu-item .expanded-element.alternative {
+  color: #9f9f9f;
+}
+
+.sidemenu-item.light:hover {
+  background-color: white;
+}
+
+nav#sidemenu ul {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+nav#sidemenu li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Choplin-ExtraLight-DEMO";
+  width: 58px;
+}
+
+nav#sidemenu .m-expand {
+  width: 58px;
+}
+
+nav#sidemenu .expanded-element {
+  display: inline-block;
+}
+
+nav#sidemenu .brand-name {
+  font-family: "Choplin-ExtraLight-DEMO";
+  font-size: 2em;
+  position: absolute;
+  bottom: 10px;
+  left: 18px;
+  color: #9f9f9f;
+  font-size: 1.5em;
 }
 
 /*!
@@ -7834,97 +7953,6 @@ button.close {
   .hidden-print {
     display: none !important;
   }
-}
-
-nav#sidemenu {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  height: 100%;
-  background-color: #323232;
-  color: white;
-  overflow: hidden;
-}
-
-nav#sidemenu.sidemenu-collapsed {
-  width: 60px;
-  -webkit-transition: width 0.2s ease-in-out;
-}
-
-nav#sidemenu.sidemenu-collapsed .brand-name-expanded {
-  opacity: 0;
-  -webkit-transition: opacity 0.2s ease-in-out;
-}
-
-nav#sidemenu.sidemenu-expanded {
-  width: 160px;
-  -webkit-transition: width 0.2s ease-in-out;
-}
-
-nav#sidemenu.sidemenu-expanded .brand-name-expanded {
-  opacity: 1;
-  -webkit-transition: opacity 0.2s ease-in-out;
-}
-
-nav#sidemenu ul a:first-child {
-  background-color: black;
-  margin-top: 0px;
-}
-
-.sidemenu-item {
-  display: block;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin-top: 10px;
-  overflow: hidden;
-  width: 160px;
-}
-
-.sidemenu-item .expanded-element {
-  text-decoration: none;
-  color: white;
-  position: relative;
-  top: -15px;
-  padding-left: 2px;
-}
-
-.sidemenu-item .expanded-element.alternative {
-  color: #9f9f9f;
-}
-
-.sidemenu-item.light:hover {
-  background-color: white;
-}
-
-nav#sidemenu li {
-  list-style: none;
-  display: inline-block;
-  font-family: "Choplin-ExtraLight-DEMO";
-  width: 58px;
-}
-
-nav#sidemenu .m-expand {
-  width: 58px;
-}
-
-nav#sidemenu .expanded-element {
-  display: inline-block;
-}
-
-nav#sidemenu ul {
-  padding-left: 0px;
-  margin-left: 0px;
-}
-
-nav#sidemenu .brand-name {
-  font-family: "Choplin-ExtraLight-DEMO";
-  font-size: 2em;
-  position: absolute;
-  bottom: 10px;
-  left: 18px;
-  color: #9f9f9f;
-  font-size: 1.5em;
 }
 
 .inner-container {
