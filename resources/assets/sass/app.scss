@@ -22,14 +22,17 @@ nav#sidemenu {
   height: 100%;
   background-color: $sidemenu-bg;
   color: white;
+  overflow:hidden;
 }
 
 nav#sidemenu.sidemenu-collapsed {
   width: 60px;
+  -webkit-transition: width 0.2s ease-in-out;
 }
 
 nav#sidemenu.sidemenu-expanded {
-  width: 150px;
+  width: $sidemenu-expanded-width;
+  -webkit-transition: width 0.2s ease-in-out;
 }
 
 nav#sidemenu ul a:first-child {
@@ -37,13 +40,25 @@ nav#sidemenu ul a:first-child {
   margin-top: 0px;
 }
 
+
+
 .sidemenu-item {
   display: block;
   padding-top: 12px;
   padding-bottom: 12px;
   margin-top: 10px;
-  &:hover {
+  overflow: hidden;
+  width: $sidemenu-expanded-width;
 
+  .expanded-element {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -15px;
+    padding-left: 2px;
+  }
+  .expanded-element.alternative {
+    color: $sidemenu-icon-color;
   }
 }
 
@@ -56,7 +71,7 @@ nav#sidemenu ul a:first-child {
 nav#sidemenu {
   li {
   list-style: none;
-  display: block;
+  display: inline-block;
   font-family: $font-secundary;
   width: $sidemenu-item-width;
 
@@ -67,6 +82,10 @@ nav#sidemenu {
   }
   .m-expand {
     width: $sidemenu-item-width;
+  }
+
+  .expanded-element {
+    display: inline-block;
   }
 }
 

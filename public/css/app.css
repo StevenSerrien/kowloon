@@ -7844,14 +7844,17 @@ nav#sidemenu {
   height: 100%;
   background-color: #323232;
   color: white;
+  overflow: hidden;
 }
 
 nav#sidemenu.sidemenu-collapsed {
   width: 60px;
+  -webkit-transition: width 0.2s ease-in-out;
 }
 
 nav#sidemenu.sidemenu-expanded {
-  width: 150px;
+  width: 160px;
+  -webkit-transition: width 0.2s ease-in-out;
 }
 
 nav#sidemenu ul a:first-child {
@@ -7864,6 +7867,20 @@ nav#sidemenu ul a:first-child {
   padding-top: 12px;
   padding-bottom: 12px;
   margin-top: 10px;
+  overflow: hidden;
+  width: 160px;
+}
+
+.sidemenu-item .expanded-element {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: -15px;
+  padding-left: 2px;
+}
+
+.sidemenu-item .expanded-element.alternative {
+  color: #9f9f9f;
 }
 
 .sidemenu-item.light:hover {
@@ -7872,13 +7889,17 @@ nav#sidemenu ul a:first-child {
 
 nav#sidemenu li {
   list-style: none;
-  display: block;
+  display: inline-block;
   font-family: "Choplin-ExtraLight-DEMO";
   width: 58px;
 }
 
 nav#sidemenu .m-expand {
   width: 58px;
+}
+
+nav#sidemenu .expanded-element {
+  display: inline-block;
 }
 
 nav#sidemenu ul {
