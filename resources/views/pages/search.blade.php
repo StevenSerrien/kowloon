@@ -1,4 +1,4 @@
 @extends('layouts.master')
 @section('content')
-    <p>This is my body content.</p>
+    <p>GOEIENDAG WELKOM BIJ DE FREDDY</p>
 @endsection

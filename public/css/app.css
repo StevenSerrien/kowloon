@@ -237,6 +237,10 @@ nav#sidemenu ul a:first-child {
   background-color: white;
 }
 
+.sidemenu-item.light.active {
+  background-color: white;
+}
+
 nav#sidemenu ul {
   padding-left: 0px;
   margin-left: 0px;

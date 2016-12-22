@@ -60,6 +60,9 @@ nav#sidemenu ul a:first-child {
   &:hover {
     background-color: white;
   }
+  &.active {
+    background-color: white;
+  }
 }
 
 nav#sidemenu {
