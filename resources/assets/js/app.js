@@ -6,3 +6,9 @@
  */
 
 require('./bootstrap');
+
+$('.m-expand').click(function() {
+  console.log('click');
+  $('#sidemenu').toggleClass('sidemenu-collapsed');
+  $('#sidemenu').toggleClass('sidemenu-expanded');
+});

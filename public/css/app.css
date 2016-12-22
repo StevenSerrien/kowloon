@@ -7850,6 +7850,10 @@ nav#sidemenu.sidemenu-collapsed {
   width: 60px;
 }
 
+nav#sidemenu.sidemenu-expanded {
+  width: 150px;
+}
+
 nav#sidemenu ul a:first-child {
   background-color: black;
   margin-top: 0px;
@@ -7870,7 +7874,11 @@ nav#sidemenu li {
   list-style: none;
   display: block;
   font-family: "Choplin-ExtraLight-DEMO";
-  width: 100%;
+  width: 58px;
+}
+
+nav#sidemenu .m-expand {
+  width: 58px;
 }
 
 nav#sidemenu ul {

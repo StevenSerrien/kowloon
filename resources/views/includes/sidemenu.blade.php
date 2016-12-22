@@ -1,6 +1,6 @@
 <nav id="sidemenu" class="sidemenu-collapsed">
   <ul>
-    <a href="#" class='sidemenu-item'>
+    <a href="#" class='sidemenu-item m-expand'>
       <li class='hamburger-icon'></li>
     <a href="#" class='sidemenu-item light'>
     <li class='search-icon'></li>

@@ -28,6 +28,10 @@ nav#sidemenu.sidemenu-collapsed {
   width: 60px;
 }
 
+nav#sidemenu.sidemenu-expanded {
+  width: 150px;
+}
+
 nav#sidemenu ul a:first-child {
   background-color: black;
   margin-top: 0px;
@@ -49,16 +53,21 @@ nav#sidemenu ul a:first-child {
   }
 }
 
-nav#sidemenu li {
+nav#sidemenu {
+  li {
   list-style: none;
   display: block;
   font-family: $font-secundary;
-  width: 100%;
+  width: $sidemenu-item-width;
 
 
   // &:hover {
   //   background-color: black;
   // }
+  }
+  .m-expand {
+    width: $sidemenu-item-width;
+  }
 }
 
 nav#sidemenu ul {
