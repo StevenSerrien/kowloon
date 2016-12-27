@@ -17,6 +17,13 @@
 // .ad2 {
 //     background: url(../images/carousel/kowloon-hero-2.png) no-repeat center center fixed;
 // }
+.carousel-logo {
+  position: absolute;
+  z-index: 999;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, 5%);
+}
 
 .carousel-inner {
   width: 100%;
@@ -29,4 +36,10 @@
 .carousel-inner .item img {
   width: 100% !important;
   height: auto !important;
+}
+
+
+.carousel-indicator-disabled {
+  background-color: $body-bg !important;
+  border-color: $body-bg !important;
 }

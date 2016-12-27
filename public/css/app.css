@@ -271,6 +271,15 @@ nav#sidemenu .brand-name {
   font-size: 1.5em;
 }
 
+.carousel-logo {
+  position: absolute;
+  z-index: 999;
+  left: 50%;
+  top: 5%;
+  -webkit-transform: translate(-50%, 5%);
+  transform: translate(-50%, 5%);
+}
+
 .carousel-inner {
   width: 100%;
   height: auto;
@@ -282,6 +291,11 @@ nav#sidemenu .brand-name {
 .carousel-inner .item img {
   width: 100% !important;
   height: auto !important;
+}
+
+.carousel-indicator-disabled {
+  background-color: #454545 !important;
+  border-color: #454545 !important;
 }
 
 /*!
