@@ -1,13 +1,12 @@
 
-// Body
-$body-bg: #f5f8fa;
+
 
 // Borders
-$laravel-border-color: darken($body-bg, 10%);
-$list-group-border: $laravel-border-color;
-$navbar-default-border: $laravel-border-color;
-$panel-default-border: $laravel-border-color;
-$panel-inner-border: $laravel-border-color;
+// // $laravel-border-color: darken($body-bg, 10%);
+// $list-group-border: $laravel-border-color;
+// $navbar-default-border: $laravel-border-color;
+// $panel-default-border: $laravel-border-color;
+// $panel-inner-border: $laravel-border-color;
 
 // Brands
 $brand-primary: #3097D1;
@@ -41,7 +40,12 @@ $panel-default-heading-bg: #fff;
 $sidemenu-bg: #323232;
 $sidemenu-icon-color: #9f9f9f;
 
+$body-bg: #454545;
+
 $font-secundary: "Choplin-ExtraLight-DEMO";
 
 $sidemenu-item-width: 58px;
 $sidemenu-expanded-width: 160px;
+
+//Kowloon carousel properties
+$carousel-height: 480px;

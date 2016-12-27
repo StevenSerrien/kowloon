@@ -9,10 +9,14 @@
 @import "sprites/sprites";
 
 @import "ui/sidebar";
+@import "ui/carousel";
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-
+//Root
+body {
+  background-color:  $body-bg;
+}
 
 .inner-container {
   padding-left: 60px;

@@ -10,6 +10,10 @@
     <p>This is appended to the master sidebar.</p>
 @endsection
 
+@section('carousel')
+  @include('includes.carousel')
+@endsection
+
 @section('content')
     <p>This is my body content.</p>
 @endsection

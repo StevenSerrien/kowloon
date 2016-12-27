@@ -1,0 +1,32 @@
+// #myCarousel {
+//     width: 100%;
+// }
+// .carousel-control {
+//     margin-top: 20px;
+// }
+// .carousel-inner .item {
+//     width: 100%;
+//     height: 500px;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     background-size: cover;
+// }
+// .ad1 {
+//     background: url(../images/carousel/kowloon-hero-1.png) no-repeat center center fixed;
+// }
+// .ad2 {
+//     background: url(../images/carousel/kowloon-hero-2.png) no-repeat center center fixed;
+// }
+
+.carousel-inner {
+  width: 100%;
+  height: auto;
+  max-height: $carousel-height;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-inner .item img {
+  width: 100% !important;
+  height: auto !important;
+}
