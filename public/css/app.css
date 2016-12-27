@@ -176,6 +176,47 @@
   height: 40px;
 }
 
+.kowloon-big-birds, .kowloon-big-cats, .kowloon-big-dogs, .kowloon-big-fish, .kowloon-big-hamster, .kowloon-big-plus {
+  background: url(sprites/big_sprites.png) no-repeat;
+  margin: auto !important;
+}
+
+.kowloon-big-birds {
+  background-position: 0 -300px;
+  width: 84px;
+  height: 68px;
+}
+
+.kowloon-big-cats {
+  background-position: 0 -101px;
+  width: 84px;
+  height: 68px;
+}
+
+.kowloon-big-dogs {
+  background-position: 0 0;
+  width: 84px;
+  height: 68px;
+}
+
+.kowloon-big-fish {
+  background-position: 0 -402px;
+  width: 84px;
+  height: 68px;
+}
+
+.kowloon-big-hamster {
+  background-position: 0 -200px;
+  width: 84px;
+  height: 68px;
+}
+
+.kowloon-big-plus {
+  background-position: -101px 0;
+  width: 84px;
+  height: 68px;
+}
+
 nav#sidemenu {
   position: absolute;
   top: 0;
@@ -7990,8 +8031,49 @@ body {
   background-color: #454545;
 }
 
+p {
+  color: #cecece;
+}
+
 .inner-container {
   padding-left: 60px;
+}
+
+p.intro-text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-categories {
+  margin-top: 50px;
+  font-family: "Choplin-ExtraLight-DEMO";
+  color: #ffffff;
+  text-align: center;
+}
+
+.home-categories > div > div + h2 {
+  font-size: 20px;
+}
+
+.home-categories > div:after {
+  content: '';
+  height: 90px;
+  width: 1px;
+  position: absolute;
+  right: 0;
+  top: 19px;
+  background-color: #616161;
+}
+
+.home-categories > div:last-child:after {
+  content: '';
+  height: 90px;
+  width: 0px;
+  position: absolute;
+}
+
+.home-categories .kowloon-big-hamster + h2 {
+  font-size: 1.3em;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -141,9 +141,54 @@
   }
 }
 
-
 .search-icon-hover{
 	background-position: -49px 0;
 	width: 58px;
 	height: 40px;
+}
+
+
+
+// BIG CATEGORY SPRITES
+
+.kowloon-big-birds, .kowloon-big-cats, .kowloon-big-dogs, .kowloon-big-fish, .kowloon-big-hamster, .kowloon-big-plus{
+	background: url(sprites/big_sprites.png) no-repeat;
+	// Center background image
+	margin: auto !important;
+}
+
+.kowloon-big-birds{
+	background-position: 0 -300px ;
+	width: 84px;
+	height: 68px;
+}
+
+.kowloon-big-cats{
+	background-position: 0 -101px ;
+	width: 84px;
+	height: 68px;
+}
+
+.kowloon-big-dogs{
+	background-position: 0 0;
+	width: 84px;
+	height: 68px;
+}
+
+.kowloon-big-fish{
+	background-position: 0 -402px ;
+	width: 84px;
+	height: 68px;
+}
+
+.kowloon-big-hamster{
+	background-position: 0 -200px ;
+	width: 84px;
+	height: 68px;
+}
+
+.kowloon-big-plus{
+	background-position: -101px 0;
+	width: 84px;
+	height: 68px;
 }

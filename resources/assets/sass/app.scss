@@ -18,6 +18,53 @@ body {
   background-color:  $body-bg;
 }
 
+p {
+  color: $text-secundary-color;
+}
+
 .inner-container {
   padding-left: 60px;
+}
+
+p.intro-text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.home-categories {
+  margin-top: 50px;
+  font-family: $font-secundary;
+  color: $text-primary-color;
+  text-align: center;
+}
+
+.home-categories {
+  & > div > div + h2{
+    // border-right: 1px solid $category-border-color;
+    font-size: 20px;
+  }
+
+  & > div:after {
+  content: '';
+  height: 90px;
+  width: 1px;
+
+  position: absolute;
+  right: 0;
+  top: 19px;
+  background-color: $category-border-color;
+  }
+
+  & > div:last-child:after {
+  // NO Right border on last element
+  content: '';
+  height: 90px;
+  width: 0px;
+  position: absolute;
+  }
+
+  .kowloon-big-hamster + h2 {
+    font-size: 1.3em;
+  }
 }
