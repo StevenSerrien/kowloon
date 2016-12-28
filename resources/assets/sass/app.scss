@@ -5,6 +5,7 @@
 // Variables
 
 @import "fonts/choplin-el";
+@import "fonts/choplin-md";
 @import "variables";
 @import "sprites/sprites";
 @import "helpers/helpers";
@@ -90,16 +91,32 @@ section#subscribe {
   .subscribe-hero {
     background-color: $subscriber-background;
     background-image: url('../images/fish-pattern.png');
+    font-family: $font-tertiary;
+    text-align: center;
+    font-size: 3em;
+
+    .subscribe-text {
+      margin-top: 20px;
+    }
+
+    span {
+      display: block;
+      line-height: 1.1em;
+    }
+    span:nth-child(2) {
+      margin-top: 40px;
+      font-size: 0.5em;
+      margin-bottom: 10px;
+    }
   }
 
   .col-md-7 {
 
-    min-height: 200px;
   }
 
   .col-md-5 {
     background-color: rgb(101, 101, 101);
-    min-height: 200px;
+    min-height: 185px;
   }
 
 

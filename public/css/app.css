@@ -26,6 +26,32 @@
   src: url("fonts/32B695_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/32B695_0_0.woff2") format("woff2"), url("fonts/32B695_0_0.woff") format("woff"), url("fonts/32B695_0_0.ttf") format("truetype");
 }
 
+/**
+ * @license
+ * MyFonts Webfont Build ID 3325359, 2016-12-28T11:31:26-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed fonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Choplin-Medium-DEMO by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/choplin/medium-demo/
+ * Copyright: Copyright &#x00A9; 2014 by Ren&#x00E9; Bieder. All rights reserved.
+ * Licensed pageviews: Unlimited
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3325359
+ *
+ * © 2016 MyFonts Inc
+*/
+@font-face {
+  font-family: 'Choplin-Medium-DEMO';
+  src: url("fonts/32BDAF_0_0.eot");
+  src: url("fonts/32BDAF_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/32BDAF_0_0.woff2") format("woff2"), url("fonts/32BDAF_0_0.woff") format("woff"), url("fonts/32BDAF_0_0.ttf") format("truetype");
+}
+
 .cat-icon-hover, .dog-icon, .dog-icon-hover, .faq-icon, .faq-icon-hover, .fish-icon, .fish-icon-hover, .hamburger-icon, .hamster-icon, .hamster-icon-hover, .owl-icon, .owl-icon-hover, .search-icon, .search-icon-hover, .cat-icon {
   background: url(sprites/sprites.png) no-repeat;
 }
@@ -8308,15 +8334,29 @@ section#subscribe {
 section#subscribe .subscribe-hero {
   background-color: #8787ff;
   background-image: url("../images/fish-pattern.png");
+  font-family: "Choplin-Medium-DEMO";
+  text-align: center;
+  font-size: 3em;
 }
 
-section#subscribe .col-md-7 {
-  min-height: 200px;
+section#subscribe .subscribe-hero .subscribe-text {
+  margin-top: 20px;
+}
+
+section#subscribe .subscribe-hero span {
+  display: block;
+  line-height: 1.1em;
+}
+
+section#subscribe .subscribe-hero span:nth-child(2) {
+  margin-top: 40px;
+  font-size: 0.5em;
+  margin-bottom: 10px;
 }
 
 section#subscribe .col-md-5 {
   background-color: #656565;
-  min-height: 200px;
+  min-height: 185px;
 }
 
 /*# sourceMappingURL=app.css.map */

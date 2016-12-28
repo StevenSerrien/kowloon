@@ -152,11 +152,11 @@
     </div>
   </div>
   <section id="subscribe">
-    <div class="row">
-
-    </div>
     <div class="col-md-7 subscribe-hero">
-
+      <div class="subscribe-text">
+        <span>discover amazing<br/>Kowloon deals!</span>
+        <span>only in our newsletter</span>
+      </div>
     </div>
     <div class="col-md-5">
 
