@@ -124,9 +124,28 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-xs-4">
+      <div class="col-md-3 col-xs-3">
+        <div class="item-stack">
+        <div class="h-item stacked stack-1"></div>
+        <div class="h-item stacked stack-2"></div>
+        <div class="h-item stacked clearfix">
+          <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+            <div class="img-overlay">
+              <div class="icon-details">
+                <span>view details</span>
+              </div>
 
+              </div>
+          </div>
+
+          <div class='h-item-textbox'>
+            <span class="h-item-name bold">Cooling mat</span>
+            <span class="h-item-price">€ 15,49</span>
+          </div>
+        </div>
       </div>
+      </div>
+
     </div>
   </div>
 @endsection
