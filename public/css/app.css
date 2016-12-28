@@ -8098,6 +8098,39 @@ p.intro-text {
   background-size: 100% cover;
 }
 
+.hot-item-indicators {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 15;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.hot-item-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hot-item-indicators li.h-item-indicator-1 {
+  background-color: white;
+}
+
+.hot-item-indicators li.h-item-indicator-2 {
+  background-color: black;
+}
+
+.hot-item-indicators li.h-item-indicator-3 {
+  background-color: #2d4aac;
+}
+
 .h-item {
   position: relative;
   padding: 4px;

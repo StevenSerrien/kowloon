@@ -90,6 +90,37 @@ p.intro-text {
   background-size:    100% cover;
 }
 
+.hot-item-indicators {
+  position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 15;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+
+    & li {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin: 1px;
+      text-indent: -999px;
+      border: 1px solid #fff;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    & li.h-item-indicator-1 {
+      background-color: white;
+    }
+    & li.h-item-indicator-2 {
+      background-color: black;
+    }
+    & li.h-item-indicator-3 {
+      background-color: #2d4aac;
+    }
+}
+
 .h-item {
   position: relative;
   padding: 4px;

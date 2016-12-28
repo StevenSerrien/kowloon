@@ -60,6 +60,11 @@
     <div class="hot-items clearfix">
       <div class="col-md-3 col-xs-3">
         <div class="h-item clearfix">
+          <ol class="hot-item-indicators">
+            <li class="h-item-indicator-1"></li>
+            <li class="h-item-indicator-2"></li>
+            <li class="h-item-indicator-3"></li>
+          </ol>
           <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
 
           </div>
