@@ -130,6 +130,9 @@
         <div class="h-item stacked stack-2"></div>
         <div class="h-item stacked clearfix">
           <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+            <div class="number-count">
+              <span class='bold'>4</span>
+            </div>
             <div class="img-overlay">
               <div class="icon-details">
                 <span>view details</span>

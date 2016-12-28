@@ -8151,6 +8151,25 @@ p.intro-text {
   width: 100%;
 }
 
+.item-stack .number-count {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  left: 5px;
+  top: 5px;
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+
+.item-stack .number-count span {
+  color: black;
+  position: absolute;
+  left: 11px;
+  top: 3px;
+}
+
 .h-item {
   position: relative;
   padding: 4px;
