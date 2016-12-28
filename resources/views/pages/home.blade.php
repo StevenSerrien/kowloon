@@ -151,4 +151,15 @@
 
     </div>
   </div>
+  <section id="subscribe">
+    <div class="row">
+
+    </div>
+    <div class="col-md-7 subscribe-hero">
+
+    </div>
+    <div class="col-md-5">
+
+    </div>
+  </section>
 @endsection

@@ -80,3 +80,27 @@ p.intro-text {
     font-size: 1.3em;
   }
 }
+
+
+
+section#subscribe {
+  margin-top: 100px;
+  margin-bottom: 300px;
+
+  .subscribe-hero {
+    background-color: $subscriber-background;
+    background-image: url('../images/fish-pattern.png');
+  }
+
+  .col-md-7 {
+
+    min-height: 200px;
+  }
+
+  .col-md-5 {
+    background-color: rgb(101, 101, 101);
+    min-height: 200px;
+  }
+
+
+}

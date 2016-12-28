@@ -553,10 +553,6 @@ nav#sidemenu .brand-name {
   padding-right: 15px;
 }
 
-.hot-items {
-  margin-bottom: 300px;
-}
-
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -8302,6 +8298,25 @@ p.intro-text {
 
 .home-categories .kowloon-big-hamster + h2 {
   font-size: 1.3em;
+}
+
+section#subscribe {
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+section#subscribe .subscribe-hero {
+  background-color: #8787ff;
+  background-image: url("../images/fish-pattern.png");
+}
+
+section#subscribe .col-md-7 {
+  min-height: 200px;
+}
+
+section#subscribe .col-md-5 {
+  background-color: #656565;
+  min-height: 200px;
 }
 
 /*# sourceMappingURL=app.css.map */
