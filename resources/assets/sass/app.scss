@@ -88,7 +88,72 @@ p.intro-text {
   height: 190px;
   background-position: 80% 65%;
   background-size:    100% cover;
+  position: relative;
+  z-index: 1;
 }
+
+.h-item {
+  position: relative;
+  padding: 4px;
+  background-color: $hot-items-background;
+  border: 1px solid $hot-items-border;
+  position: relative;
+  cursor: pointer;
+
+  &:hover .img-overlay{
+    background-color: #ff6f9e;
+    opacity: 0.86;
+    z-index: 999;
+    position: relative;
+    height: 100%;
+    padding-top: 15px;
+  }
+
+  &:hover div.icon-details {
+    opacity: 1;
+  }
+
+  & div.icon-details {
+    position: relative;
+    background-image: url('../images/view-details.png');
+    background-size: cover;
+    width: 105px;
+    height: 105px;
+    margin: auto;
+    text-align: center;
+    opacity: 0;
+  }
+
+  & div.icon-details span {
+    font-size: 1.3em;
+    position: absolute;
+    bottom: -10px;
+    left: 5px;
+    width: 100%;
+  }
+}
+
+.h-item-textbox {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ padding-left: 10px;
+ padding-right: 10px;
+ color: white;
+ width: 100%;
+ background-color: $hot-items-background;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ z-index: 11;
+
+ & .h-item-price {
+   float: right;
+ }
+ & span {
+   display: inline;
+ }
+}
+
 
 .hot-item-indicators {
   position: absolute;
@@ -121,12 +186,7 @@ p.intro-text {
     }
 }
 
-.h-item {
-  position: relative;
-  padding: 4px;
-  background-color: $hot-items-background;
-  border: 1px solid $hot-items-border;
-}
+
 
  .h-item-textbox {
   position: absolute;

@@ -8096,6 +8096,71 @@ p.intro-text {
   height: 190px;
   background-position: 80% 65%;
   background-size: 100% cover;
+  position: relative;
+  z-index: 1;
+}
+
+.h-item {
+  position: relative;
+  padding: 4px;
+  background-color: #565656;
+  border: 1px solid #717171;
+  position: relative;
+  cursor: pointer;
+}
+
+.h-item:hover .img-overlay {
+  background-color: #ff6f9e;
+  opacity: 0.86;
+  z-index: 999;
+  position: relative;
+  height: 100%;
+  padding-top: 15px;
+}
+
+.h-item:hover div.icon-details {
+  opacity: 1;
+}
+
+.h-item div.icon-details {
+  position: relative;
+  background-image: url("../images/view-details.png");
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  margin: auto;
+  text-align: center;
+  opacity: 0;
+}
+
+.h-item div.icon-details span {
+  font-size: 1.3em;
+  position: absolute;
+  bottom: -10px;
+  left: 5px;
+  width: 100%;
+}
+
+.h-item-textbox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  width: 100%;
+  background-color: #565656;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 11;
+}
+
+.h-item-textbox .h-item-price {
+  float: right;
+}
+
+.h-item-textbox span {
+  display: inline;
 }
 
 .hot-item-indicators {
@@ -8129,13 +8194,6 @@ p.intro-text {
 
 .hot-item-indicators li.h-item-indicator-3 {
   background-color: #2d4aac;
-}
-
-.h-item {
-  position: relative;
-  padding: 4px;
-  background-color: #565656;
-  border: 1px solid #717171;
 }
 
 .h-item-textbox {

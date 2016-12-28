@@ -60,14 +60,20 @@
     <div class="hot-items clearfix">
       <div class="col-md-3 col-xs-3">
         <div class="h-item clearfix">
-          <ol class="hot-item-indicators">
-            <li class="h-item-indicator-1"></li>
-            <li class="h-item-indicator-2"></li>
-            <li class="h-item-indicator-3"></li>
-          </ol>
           <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+            <ol class="hot-item-indicators">
+              <li class="h-item-indicator-1"></li>
+              <li class="h-item-indicator-2"></li>
+              <li class="h-item-indicator-3"></li>
+            </ol>
+            <div class="img-overlay">
+              <div class="icon-details">
+                <span>view details</span>
+              </div>
 
+              </div>
           </div>
+
           <div class='h-item-textbox'>
             <span class="h-item-name bold">Cooling mat</span>
             <span class="h-item-price">€ 15,49</span>
@@ -75,10 +81,48 @@
         </div>
       </div>
       <div class="col-md-3 col-xs-3">
+        <div class="h-item clearfix">
+          <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+            <ol class="hot-item-indicators">
+              <li class="h-item-indicator-1"></li>
+              <li class="h-item-indicator-2"></li>
+              <li class="h-item-indicator-3"></li>
+            </ol>
+            <div class="img-overlay">
+              <div class="icon-details">
+                <span>view details</span>
+              </div>
 
+              </div>
+          </div>
+
+          <div class='h-item-textbox'>
+            <span class="h-item-name bold">Cooling mat</span>
+            <span class="h-item-price">€ 15,49</span>
+          </div>
+        </div>
       </div>
       <div class="col-md-3 col-xs-3">
+        <div class="h-item clearfix">
+          <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+            <ol class="hot-item-indicators">
+              <li class="h-item-indicator-1"></li>
+              <li class="h-item-indicator-2"></li>
+              <li class="h-item-indicator-3"></li>
+            </ol>
+            <div class="img-overlay">
+              <div class="icon-details">
+                <span>view details</span>
+              </div>
 
+              </div>
+          </div>
+
+          <div class='h-item-textbox'>
+            <span class="h-item-name bold">Cooling mat</span>
+            <span class="h-item-price">€ 15,49</span>
+          </div>
+        </div>
       </div>
       <div class="col-md-4 col-xs-4">
 
