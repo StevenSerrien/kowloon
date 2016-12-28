@@ -55,7 +55,7 @@
   </div>
   <div class="row">
     <div class="col-xs-12">
-    <h2>HOT ITEMS.</h2>
+    <h2 class="bold">HOT ITEMS.</h2>
     </div>
     <div class="hot-items clearfix">
       <div class="col-md-3 col-xs-3">
@@ -64,8 +64,8 @@
 
           </div>
           <div class='h-item-textbox'>
-            <span class="h-item-name">Cooling mat</span>
-            <span class="h-item-price"></span>
+            <span class="h-item-name bold">Cooling mat</span>
+            <span class="h-item-price">€ 15,49</span>
           </div>
         </div>
       </div>
