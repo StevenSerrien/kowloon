@@ -162,6 +162,10 @@
       <div class="subscribe-form span-blocks inner-center">
         <span class="size-1x bold">Subscribe to our newsletter</span>
         <span>Lorem ipsum dolor sit amet.</span>
+        <form action="" method="post">
+          <input class="borderless" type="email" name="email" placeholder="domain @ name.com" value="">
+          <button class="borderless paste-left" type="submit" name="button">OK</button>
+        </form>
       </div>
     </div>
   </section>

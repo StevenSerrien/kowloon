@@ -29,3 +29,36 @@
 .size-3x {
   font-size: 2em;
 }
+
+.borderless {
+  border: none;
+}
+
+.paste-left {
+  position: relative;
+  margin-left: -3px;
+}
+
+.subscribe-form {
+  width: 70%;
+}
+
+form {
+  margin-top: 20px;
+  height: 40px;
+  input, button {
+    height: 100%;
+  }
+  button {
+    padding: 0px 20px;
+  }
+  input {
+    width: 70%;
+    padding-left: 10px;
+  }
+}
+button {
+  background-color: #323232;
+  color: white !important;
+
+}
