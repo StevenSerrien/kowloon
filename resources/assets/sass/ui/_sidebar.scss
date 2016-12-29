@@ -26,6 +26,7 @@ nav#sidemenu.sidemenu-expanded {
   .brand-name-expanded {
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
+
   }
 }
 
@@ -98,5 +99,9 @@ nav#sidemenu {
     left: 18px;
     color: $sidemenu-icon-color;
     font-size: 1.5em;
+  }
+
+  .brand-name-expanded {
+    color: $sidemenu-icon-color;
   }
 }

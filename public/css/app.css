@@ -247,6 +247,34 @@
   font-weight: bold;
 }
 
+.span-blocks span {
+  display: block;
+}
+
+.outer {
+  position: relative;
+}
+
+.inner-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.size-1x {
+  font-size: 1.2em;
+}
+
+.size-2x {
+  font-size: 1.6em;
+}
+
+.size-3x {
+  font-size: 2em;
+}
+
 nav#sidemenu {
   position: fixed;
   top: 0;
@@ -340,6 +368,10 @@ nav#sidemenu .brand-name {
   left: 18px;
   color: #9f9f9f;
   font-size: 1.5em;
+}
+
+nav#sidemenu .brand-name-expanded {
+  color: #9f9f9f;
 }
 
 .carousel-logo {

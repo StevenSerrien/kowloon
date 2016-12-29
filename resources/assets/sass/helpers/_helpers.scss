@@ -1,3 +1,31 @@
 .bold {
   font-weight: bold;
 }
+
+.span-blocks span{
+  display: block;
+}
+
+
+// How to center a child div inside an outer div. Apply outer class to outer div and apply .innner-center to vertically and horizantally align divs inside their parent ;)
+.outer {
+  position: relative;
+}
+
+.inner-center {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.size-1x {
+  font-size: 1.2em;
+}
+
+.size-2x {
+  font-size: 1.6em;
+}
+
+.size-3x {
+  font-size: 2em;
+}

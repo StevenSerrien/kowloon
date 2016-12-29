@@ -158,8 +158,11 @@
         <span>only in our newsletter</span>
       </div>
     </div>
-    <div class="col-md-5">
-
+    <div class="col-md-5 outer">
+      <div class="subscribe-form span-blocks inner-center">
+        <span class="size-1x bold">Subscribe to our newsletter</span>
+        <span>Lorem ipsum dolor sit amet.</span>
+      </div>
     </div>
   </section>
 @endsection
