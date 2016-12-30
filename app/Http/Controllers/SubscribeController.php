@@ -4,22 +4,38 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Subscriber;
+use Illuminate\Support\Facades\Validator;
 
 class SubscribeController extends Controller
 {
     // Store subscriber into database
       public function store(Request $request){
 
-      $subscriber = new Subscriber();
-      $subscriber->email = $request->email;
+      // Rules to check if email is unique
+      $input = array('email' => $request->email);
+      $rules = array('email' => 'unique:subscribers,email');
 
-      if (!$subscriber->save()) {
-        return "ERROR: Subscriber NOT added to list.";
+      $validator = Validator::make($input, $rules);
 
+      if ($validator->passes()) {
+        $subscriber = new Subscriber();
+        $subscriber->email = $request->email;
+
+
+        if (!$subscriber->save()) {
+          return redirect('/home')->with('message', 'ERROR! You were not added.');
+
+
+        }
+        else {
+          return redirect('/home')->with('message', 'Success!');
+        }
       }
       else {
-        return "Subscriber added to list.";
+        return redirect('/home')->with('message', 'You are already in.');
       }
+
+
       //   $subscribe_email = Subscriber::create([
       //     'email' => $request->get('email')
       // ]);
