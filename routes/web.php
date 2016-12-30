@@ -22,3 +22,9 @@ Route::get('/home', function () {
 Route::get('/search', function () {
     return view('pages.search');
 });
+
+Route::post('/subscribe', 'SubscribeController@store');
+
+Route::get('/test', function () {
+    return "testje";
+});
