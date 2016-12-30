@@ -410,6 +410,11 @@ nav#sidemenu .brand-name-expanded {
   color: #9f9f9f;
 }
 
+nav#sidemenu hr {
+  width: 80%;
+  border-color: #9f9f9f;
+}
+
 .carousel-logo {
   position: absolute;
   z-index: 999;

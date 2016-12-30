@@ -104,4 +104,10 @@ nav#sidemenu {
   .brand-name-expanded {
     color: $sidemenu-icon-color;
   }
+
+  hr {
+    width: 80%;
+    border-color: $sidemenu-icon-color;
+    
+  }
 }

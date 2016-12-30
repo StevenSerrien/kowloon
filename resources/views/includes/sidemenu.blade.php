@@ -8,6 +8,7 @@
     <a href="#" class='sidemenu-item light'>
     <li class='faq-icon'></li><span class="expanded-element alternative">FAQ</span>
     </a>
+    <hr>
     <a href="#" class='sidemenu-item'>
     <li class='dog-icon'></li><span class="expanded-element">Dogs</span>
     </a>
