@@ -1,9 +1,3 @@
-<div id="morphsearch" class="morphsearch">
-  <form class="morphsearch-form">
-
-  </form>
-</div>
-
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Static Logo -->
   <div class="carousel-logo">

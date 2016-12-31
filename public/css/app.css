@@ -243,6 +243,52 @@
   height: 68px;
 }
 
+.search_faq_icons_0006_break, .search_faq_icons_0000_loader, .search_faq_icons_0001_Search-icon-copy, .search_faq_icons_0002_dropdown-copy, .search_faq_icons_0003_dropdown, .m-close, .search_faq_icons_0005_clear-icon {
+  background: url(sprites/fs_sprites.png) no-repeat;
+}
+
+.search_faq_icons_0006_break {
+  background-position: -51px 0;
+  width: 42px;
+  height: 28px;
+}
+
+.search_faq_icons_0000_loader {
+  background-position: 0 0;
+  width: 48px;
+  height: 48px;
+}
+
+.search_faq_icons_0001_Search-icon-copy {
+  background-position: -52px -52px;
+  width: 33px;
+  height: 33px;
+}
+
+.search_faq_icons_0002_dropdown-copy {
+  background-position: -63px -108px;
+  width: 14px;
+  height: 9px;
+}
+
+.search_faq_icons_0003_dropdown {
+  background-position: -31px -104px;
+  width: 9px;
+  height: 14px;
+}
+
+.m-close {
+  background-position: 0 -54px;
+  width: 24px;
+  height: 23px;
+}
+
+.search_faq_icons_0005_clear-icon {
+  background-position: 0 -103px;
+  width: 15px;
+  height: 15px;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -413,6 +459,10 @@ nav#sidemenu .brand-name-expanded {
 nav#sidemenu hr {
   width: 80%;
   border-color: #464444;
+}
+
+a#search {
+  cursor: pointer;
 }
 
 .carousel-logo {
@@ -652,7 +702,7 @@ nav#sidemenu hr {
   padding-right: 15px;
 }
 
-.morphsearch {
+.morph-search-faq {
   position: absolute;
   background: #f1f1f1;
   width: 100%;
@@ -661,16 +711,23 @@ nav#sidemenu hr {
   -webkit-transform-origin: 100% 0;
   transform-origin: 100% 0;
   z-index: 10000;
-  -webkit-transition-property: height;
-  transition-property: height;
+  -webkit-transition-property: height, opacity;
+  transition-property: height, opacity;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  opacity: 0;
 }
 
-.morphsearch.open {
+.morph-search-faq.open {
   height: 110%;
+  opacity: 1;
+}
+
+.morph-search-faq span {
+  position: absolute;
+  cursor: pointer;
 }
 
 /*!

@@ -15,6 +15,6 @@ $('.m-expand').click(function() {
 
 $('a#search').click(function() {
   console.log('click');
-  $('#morphsearch').toggleClass('open');
+  $('#morph-search-faq').toggleClass('open');
   $('#search').toggleClass('active');
 });

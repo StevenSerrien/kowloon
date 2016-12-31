@@ -8,9 +8,12 @@
         @include('includes.sidemenu')
 
         <div class="inner-container">
+          @include('includes.search')
           @yield('carousel')
           <div class="container">
             @yield('content')
+            
+
           </div>
 
         </div>
