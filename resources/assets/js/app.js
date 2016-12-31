@@ -12,3 +12,9 @@ $('.m-expand').click(function() {
   $('#sidemenu').toggleClass('sidemenu-collapsed');
   $('#sidemenu').toggleClass('sidemenu-expanded');
 });
+
+$('a#search').click(function() {
+  console.log('click');
+  $('#morphsearch').toggleClass('open');
+  $('#search').toggleClass('active');
+});

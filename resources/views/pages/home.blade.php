@@ -15,6 +15,7 @@
 @endsection
 
 @section('content')
+
   <div class="row">
     <p class="intro-text">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

@@ -13,6 +13,7 @@
 @import "ui/sidebar";
 @import "ui/carousel";
 @import "ui/hot-items";
+@import "ui/search";
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
@@ -20,6 +21,7 @@
 body {
   background-color:  $body-bg;
   font-family: $font-primary;
+  margin-bottom: 100px;
 }
 
 span, p {
@@ -38,6 +40,8 @@ h2 {
 
 .inner-container {
   padding-left: 60px;
+  // To have FAQ and Search full height - position relative
+  position: relative;
 }
 
 p.intro-text {

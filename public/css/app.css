@@ -315,7 +315,7 @@ nav#sidemenu {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 11000;
   height: 100%;
   background-color: #323232;
   color: white;
@@ -650,6 +650,27 @@ nav#sidemenu hr {
 
 .hot-items div[class^="col"]:last-child {
   padding-right: 15px;
+}
+
+.morphsearch {
+  position: absolute;
+  background: #f1f1f1;
+  width: 100%;
+  height: 0px;
+  top: 0px;
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  z-index: 10000;
+  -webkit-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.morphsearch.open {
+  height: 110%;
 }
 
 /*!
@@ -8343,6 +8364,7 @@ button.close {
 body {
   background-color: #454545;
   font-family: "Arial";
+  margin-bottom: 100px;
 }
 
 span, p {
@@ -8360,6 +8382,7 @@ h2 {
 
 .inner-container {
   padding-left: 60px;
+  position: relative;
 }
 
 p.intro-text {

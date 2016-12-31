@@ -2,7 +2,7 @@
   <ul>
     <a href="#" class='sidemenu-item m-expand'>
       <li class='hamburger-icon'></li>
-    <a href="{{ url('/search') }}" class='sidemenu-item light {{ Request::is('search') ? 'active' : '' }}'>
+    <a id="search"  class='sidemenu-item light {{ Request::is('search') ? 'active' : '' }}'>
     <li class='search-icon'></li><span class="expanded-element alternative">Search</span>
     </a>
     <a href="#" class='sidemenu-item light'>
