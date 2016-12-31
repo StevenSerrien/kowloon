@@ -18,10 +18,14 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 //Root
+html {
+  
+}
 body {
   background-color:  $body-bg;
   font-family: $font-primary;
   margin-bottom: 100px;
+
 }
 
 span, p {

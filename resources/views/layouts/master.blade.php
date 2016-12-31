@@ -12,7 +12,7 @@
           @yield('carousel')
           <div class="container">
             @yield('content')
-            
+
 
           </div>
 

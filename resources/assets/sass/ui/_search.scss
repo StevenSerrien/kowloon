@@ -1,7 +1,9 @@
 .morph-search-faq {
   position: absolute;
   background: #f1f1f1;
-  width: 100%;
+  // Problem with overflow when overlay ?
+  overflow: hidden;
+  width: unquote("-webkit-calc(100% - 60px)");
   height: 0px;
   top: 0px;
   transform-origin: 100% 0;
@@ -15,15 +17,27 @@
     height: 110%;
     opacity: 1;
 
-    &.m-close {
+    .m-close {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      color: $fs-close-text-color;
 
+
+      &:after {
+        content:"esc";
+        position: absolute;
+        top: 25px;
+        left: 0px;
+      }
     }
 
   }
 
-  span {
+  span.m-close {
     position: absolute;
     cursor: pointer;
+
   }
 
 }

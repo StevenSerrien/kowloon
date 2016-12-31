@@ -705,7 +705,8 @@ a#search {
 .morph-search-faq {
   position: absolute;
   background: #f1f1f1;
-  width: 100%;
+  overflow: hidden;
+  width: -webkit-calc(100% - 60px);
   height: 0px;
   top: 0px;
   -webkit-transform-origin: 100% 0;
@@ -725,7 +726,21 @@ a#search {
   opacity: 1;
 }
 
-.morph-search-faq span {
+.morph-search-faq.open .m-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #b5b5b5;
+}
+
+.morph-search-faq.open .m-close:after {
+  content: "esc";
+  position: absolute;
+  top: 25px;
+  left: 0px;
+}
+
+.morph-search-faq span.m-close {
   position: absolute;
   cursor: pointer;
 }
