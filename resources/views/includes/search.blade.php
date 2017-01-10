@@ -5,9 +5,9 @@
       <a id="advanced-filter"class='advanced-filter pointer no-decoration' data-toggle="collapse" data-target="#collapseAdvancedFilter" aria-expanded="false" aria-controls="collapseExample">
         Advanced filter <span class='arrow-filter'></span>
       </a>
-      <div class="ddcollapse" id="collapseAdvancedFilter">
-        <div class="advanced-filter-area">
-          <form>
+      <div class="collapse clearfix" id="collapseAdvancedFilter">
+        <div class="advanced-filter-area clearfix">
+          <form class='clearfix'>
             <div class="col-md-6 col-sm-12">
               <h2 class='size-1x'>
                 Category
@@ -37,7 +37,7 @@
               <h2 class='size-1x'>
                 Price range
               </h2>
-              <div class="price-slider">
+              <div class="price-slider clearfix">
                 <div id="slider-range"></div>
                 <div class="prices outer">
                 <input type="text" id="amount_1" readonly>
@@ -52,7 +52,7 @@
         </div>
       </div>
       <form class="morphsearch-form">
-
+        <input id="big-search-input" type="text" name="search" value="">
       </form>
     </div>
     <!-- end of Search section -->

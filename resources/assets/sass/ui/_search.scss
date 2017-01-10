@@ -1,6 +1,6 @@
 .morph-search-faq {
   position: absolute;
-  background: #f1f1f1;
+  background: #ffffff;
   // Problem with overflow when overlay ?
   overflow: hidden;
   width: unquote("-webkit-calc(100% - 60px)");
@@ -96,4 +96,18 @@
     }
   }
 
+}
+
+
+.morphsearch-form {
+  margin-top: 230px;
+  #big-search-input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #535353;
+    &:focus {
+      outline: none;
+    }
+
+  }
 }
