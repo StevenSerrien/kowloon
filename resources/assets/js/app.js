@@ -84,4 +84,30 @@ $( function() {
           $("label.search-placeholder").removeClass('s-invisible');
         };
     });
+
+    if (($(this).val().length) === 0) {
+      $("label.search-placeholder").removeClass('s-invisible');
+    };
+
+    $('button#m-clear').click(function() {
+      $("input#big-search-input").val('');
+      $("label.search-placeholder").removeClass('s-invisible');
+    });
+
+
+
+    // Put user input in inputfield once he/she starts typing
+
+
+      $('body').on('keydown', function() {
+        if ($('#m-search').hasClass('m-active')) {
+        var input = $('input#big-search-input');
+
+        if(!input.is(':focus')) {
+          input.focus();
+          $('label.search-placeholder').addClass('s-invisible');
+        }
+      }
+      });
+
   });

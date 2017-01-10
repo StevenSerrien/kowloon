@@ -852,6 +852,7 @@ a#search {
   float: right;
   position: relative;
   top: -30px;
+  outline: none;
 }
 
 .morphsearch-form button span {
