@@ -52,7 +52,10 @@
         </div>
       </div>
       <form class="morphsearch-form">
-        <input id="big-search-input" type="text" name="search" value="">
+        <div class="group">
+          <label class='search-placeholder'><span class='m-search-icon'></span>Just start typing and hit<span class='m-enter-icon'></span>to search</label>
+          <input id="big-search-input" type="text" name="search" value="">
+        </div>
       </form>
     </div>
     <!-- end of Search section -->

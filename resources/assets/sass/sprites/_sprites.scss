@@ -194,11 +194,11 @@
 }
 
 // Icons for search and faq
-.search_faq_icons_0006_break, .search_faq_icons_0000_loader, .search_faq_icons_0001_Search-icon-copy, .arrow-filter-active, .arrow-filter, .m-close, .search_faq_icons_0005_clear-icon{
+.m-enter-icon, .search_faq_icons_0000_loader, .m-search-icon, .arrow-filter-active, .arrow-filter, .m-close, .search_faq_icons_0005_clear-icon{
 	background: url(sprites/fs_sprites.png) no-repeat;
 }
 
-.search_faq_icons_0006_break{
+.m-enter-icon{
 	background-position: -51px 0;
 	width: 42px;
 	height: 28px;
@@ -210,7 +210,7 @@
 	height: 48px;
 }
 
-.search_faq_icons_0001_Search-icon-copy{
+.m-search-icon{
 	background-position: -52px -52px ;
 	width: 33px;
 	height: 33px;

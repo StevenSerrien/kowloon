@@ -57,8 +57,9 @@ $('a#advanced-filter').click(function() {
   $('span.arrow-filter').toggleClass('arrow-filter-active');
 });
 
-// RANGESLIDER
+
 $( function() {
+  // RANGESLIDER
     $( "#slider-range" ).slider({
       range: true,
       min: 8.00,
@@ -71,4 +72,16 @@ $( function() {
     });
     $( "#amount_1" ).val( "€           " + $( "#slider-range" ).slider( "values", 0 ) + ",00");
     $( "#amount_2" ).val( "€           " + $( "#slider-range" ).slider( "values", 1 ) + ",00");
+
+    // SEARCH INPUT
+    $("label.search-placeholder").click(function() {
+        $(this).next().focus();
+        $(this).addClass('s-invisible');
+    });
+
+    $("input#big-search-input").blur(function() {
+        if (($(this).val().length) === 0) {
+          $("label.search-placeholder").removeClass('s-invisible');
+        };
+    });
   });

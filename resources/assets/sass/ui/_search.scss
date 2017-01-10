@@ -101,13 +101,46 @@
 
 .morphsearch-form {
   margin-top: 230px;
+
+
   #big-search-input {
     width: 100%;
     border: none;
     border-bottom: 2px solid #535353;
+    z-index: 50;
+    font-size: 3em;
+    padding-bottom: 40px;
+    padding-top: 40px;
     &:focus {
       outline: none;
     }
+  }
 
+  .group {
+    position: relative;
+  }
+  label {
+    position:absolute;
+    top: 0px;
+    font-size: 3em;
+    color: #e27500;
+    cursor: text;
+    z-index: 40;
+    span {
+      display: inline-block;
+
+      &.m-search-icon {
+        margin-right: 40px;
+      }
+
+      &.m-enter-icon {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+
+    &.s-invisible {
+      visibility: hidden;
+    }
   }
 }
