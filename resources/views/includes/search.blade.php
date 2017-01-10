@@ -37,12 +37,11 @@
               <h2 class='size-1x'>
                 Price range
               </h2>
-              <p>
-  <label for="amount">Price range:</label>
-  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-</p>
-
-<div id="slider-range"></div>
+              <div class="price-slider">
+                <div id="slider-range"></div>
+                <input type="text" id="amount_1" readonly>
+                <input type="text" id="amount_2" readonly>
+              </div>
             </div>
           </form>
         </div>

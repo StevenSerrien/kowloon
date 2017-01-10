@@ -57,22 +57,18 @@ $('a#advanced-filter').click(function() {
   $('span.arrow-filter').toggleClass('arrow-filter-active');
 });
 
-
-
-
-
 // RANGESLIDER
-
 $( function() {
     $( "#slider-range" ).slider({
       range: true,
-      min: 0,
-      max: 500,
-      values: [ 75, 300 ],
+      min: 8.00,
+      max: 499.00,
+      values: [ 8, 499 ],
       slide: function( event, ui ) {
-        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+        $('#amount_1').val( "€           " + ui.values[ 0 ] + ",00");
+        $('#amount_2').val( "€           " + ui.values[ 1 ] + ",00");
       }
     });
-    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-  } );
+    $( "#amount_1" ).val( "€           " + $( "#slider-range" ).slider( "values", 0 ) + ",00");
+    $( "#amount_2" ).val( "€           " + $( "#slider-range" ).slider( "values", 1 ) + ",00");
+  });

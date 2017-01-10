@@ -11,14 +11,16 @@ $range-track-height: 5px !default;
 $range-label-color: #323232 !default;
 $range-label-width: 60px !default;
 
+
+
 /* Style for handlers */
 div#slider-range {
   &.ui-slider {
-    -webkit-appearance: none !important;
-    width: calc(100% - (#{$range-label-width + 13px})) !important;
+    -webkit-appearance: none ;
+    width: 100% ;
     height: $range-track-height;
-    border-radius: 5px !important;
-    background: $range-track-color !important;
+    border-radius: 5px ;
+    background: $range-track-color ;
     outline: none;
     padding: 0;
     margin: 0;
@@ -27,20 +29,39 @@ div#slider-range {
     background-color: $range-track-color;
   }
   .ui-slider-handle {
-    appearance: none !important;
-    width: $range-handle-size !important;
-    height: $range-handle-size !important;
-    border-radius: 50% !important;
-    background: $range-handle-color !important;
-    cursor: pointer !important;
-    transition: background .15s ease-in-out !important;
+    appearance: none ;
+    width: $range-handle-size ;
+    height: $range-handle-size ;
+    border-radius: 50% ;
+    background: $range-handle-color ;
+    cursor: pointer ;
+    transition: background .15s ease-in-out ;
     border: none;
     top: -0.6em;
     &.ui-state-hover {
-      background: $range-handle-color-hover !important;
+      background: $range-handle-color-hover ;
     }
     &:focus {
       outline:0;
     }
+  }
+}
+
+/* PRICE SLIDER */
+.price-slider {
+  margin-top: 15px;
+  #amount_1 {
+    width: 30%;
+    float: left;
+  }
+
+  #amount_2 {
+    width: 30%;
+    float: right;
+  }
+
+  #amount_1, #amount_2 {
+    margin-top: 20px;
+    border: 2px solid #9a9a9a;
   }
 }
