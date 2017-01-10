@@ -5,7 +5,7 @@
     <a id="search"  class='sidemenu-item light {{ Request::is('search') ? 'active' : '' }}'>
     <li class='search-icon'></li><span class="expanded-element alternative">Search</span>
     </a>
-    <a href="#" class='sidemenu-item light'>
+    <a id="faq" class='sidemenu-item light {{ Request::is('faq') ? 'active' : '' }}'>
     <li class='faq-icon'></li><span class="expanded-element alternative">FAQ</span>
     </a>
     <hr>
