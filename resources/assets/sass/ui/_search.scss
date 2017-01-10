@@ -13,6 +13,20 @@
   transition-timing-function: cubic-bezier(0.7,0,0.3,1);
   opacity: 0;
 
+  .container {
+    margin-top: 20px;
+  }
+
+  .advanced-filter {
+    font-family: $font-primary;
+    font-weight: 100;
+    font-size: 2em;
+    color: $overlay-text-color;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
   &.open {
     height: 110%;
     opacity: 1;
@@ -22,8 +36,6 @@
       right: 20px;
       top: 20px;
       color: $fs-close-text-color;
-
-
       &:after {
         content:"esc";
         position: absolute;
@@ -33,11 +45,19 @@
     }
 
   }
-
   span.m-close {
     position: absolute;
     cursor: pointer;
+  }
 
+  #m-search, #m-faq {
+    visibility: hidden;
+    display: none;
+
+    &.m-active {
+      display: inherit;
+      visibility: visible;
+    }
   }
 
 }

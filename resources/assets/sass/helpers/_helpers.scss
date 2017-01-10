@@ -6,6 +6,20 @@
   display: block;
 }
 
+.pointer {
+  cursor: pointer;;
+}
+
+.no-decoration {
+  color:inherit;
+  text-decoration:none;
+  &:hover, &:active, &:focus {
+    text-decoration:none;
+    color: inherit;
+  }
+
+}
+
 
 // How to center a child div inside an outer div. Apply outer class to outer div and apply .innner-center to vertically and horizantally align divs inside their parent ;)
 .outer {
