@@ -59,6 +59,10 @@ $('a#advanced-filter').click(function() {
 
 
 $( function() {
+  function doNothing() {
+
+  };
+
   // RANGESLIDER
     $( "#slider-range" ).slider({
       range: true,
@@ -92,22 +96,43 @@ $( function() {
     $('button#m-clear').click(function() {
       $("input#big-search-input").val('');
       $("label.search-placeholder").removeClass('s-invisible');
+      $('#search-results-message').text('');
     });
 
 
 
     // Put user input in inputfield once he/she starts typing
-
-
-      $('body').on('keydown', function() {
-        if ($('#m-search').hasClass('m-active')) {
-        var input = $('input#big-search-input');
-
+    $('body').keydown(function(e) {
+      if ($('#m-search').hasClass('m-active')) {
+      var input = $('input#big-search-input');
+      // On enter inside search input field -> search for the value inside.
+      if (e.keyCode === 13) {
+        var searchQuery = $("input#big-search-input").val();
+        if (!(searchQuery.length === 0)) {
+          console.log('enter');
+          $('#search-results-message').text('3 results for the word "' + searchQuery + '"');
+        }
+      }
+      else {
         if(!input.is(':focus')) {
           input.focus();
           $('label.search-placeholder').addClass('s-invisible');
         }
       }
-      });
+    }
+    });
+
+
+      // BACKUP
+      // $('body').on('keydown', function() {
+      //   if ($('#m-search').hasClass('m-active')) {
+      //   var input = $('input#big-search-input');
+      //
+      //   if(!input.is(':focus')) {
+      //     input.focus();
+      //     $('label.search-placeholder').addClass('s-invisible');
+      //   }
+      // }
+      // });
 
   });

@@ -102,16 +102,22 @@
 .morphsearch-form {
   margin-top: 230px;
 
-  button {
+  #search-results-message {
+    display: block;
+  }
+
+  button#m-clear {
     background:none!important;
      border:none;
      padding:0!important;
      color: inherit !important;
      cursor:pointer;
      float: right;
-     position: relative;
-     top: -30px;
+     position: absolute;
+     top: 0;
+     right: 0;
      outline: none;
+     height: auto;
 
      span {
        position: relative;
@@ -174,5 +180,9 @@
     &.s-invisible {
       visibility: hidden;
     }
+  }
+
+  .search-results {
+    position: relative;
   }
 }

@@ -843,19 +843,25 @@ a#search {
   margin-top: 230px;
 }
 
-.morphsearch-form button {
+.morphsearch-form #search-results-message {
+  display: block;
+}
+
+.morphsearch-form button#m-clear {
   background: none !important;
   border: none;
   padding: 0 !important;
   color: inherit !important;
   cursor: pointer;
   float: right;
-  position: relative;
-  top: -30px;
+  position: absolute;
+  top: 0;
+  right: 0;
   outline: none;
+  height: auto;
 }
 
-.morphsearch-form button span {
+.morphsearch-form button#m-clear span {
   position: relative;
   display: inline-block;
   top: 2px;
@@ -920,6 +926,10 @@ a#search {
 
 .morphsearch-form label.s-invisible {
   visibility: hidden;
+}
+
+.morphsearch-form .search-results {
+  position: relative;
 }
 
 /* Style for handlers */

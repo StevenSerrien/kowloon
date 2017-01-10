@@ -1,7 +1,7 @@
-<div id="morph-search-faq" class="morph-search-faq">
+<div id="morph-search-faq" class="morph-search-faq open">
   <span id="m-close-button" class='m-close'></span>
   <div class="container">
-    <div id="m-search" class="">
+    <div id="m-search" class="m-active">
       <a id="advanced-filter"class='advanced-filter pointer no-decoration' data-toggle="collapse" data-target="#collapseAdvancedFilter" aria-expanded="false" aria-controls="collapseExample">
         Advanced filter <span class='arrow-filter'></span>
       </a>
@@ -51,16 +51,18 @@
           </form>
         </div>
       </div>
-      <form class="morphsearch-form">
+      <form class="morphsearch-form" onSubmit="return false;">
         <div class="group">
           <label class='search-placeholder'><span class='m-search-icon'></span>Just start typing and hit<span class='m-enter-icon'></span>to search</label>
-          <input id="big-search-input" type="text" name="search" value="">
+          <input id="big-search-input" type="text" name="search" value="" autocomplete="off">
         </div>
-        <span id='search-results-message'></span>
-        <p>Don't find what you're looking for? Maybe use fewer words or a more general search term.</p>
-        <br/>
-        <p>If you still have no luck you can contact our <a>customer service</a></p>
-        <button id="m-clear" type="button" name="clear-search">Clear <span class='m-clear-icon'></span></button>
+        <div class="search-results">
+          <p id='search-results-message'></p>
+          <p>Don't find what you're looking for? Maybe use fewer words or a more general search term.</p>
+          <br/>
+          <p>If you still have no luck you can contact our <a>customer service</a></p>
+          <button id="m-clear" type="button" name="clear-search">Clear <span class='m-clear-icon'></span></button>
+        </div>
       </form>
     </div>
     <!-- end of Search section -->
