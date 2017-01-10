@@ -57,7 +57,18 @@
           <input id="big-search-input" type="text" name="search" value="" autocomplete="off">
         </div>
         <div class="search-results">
-          <p id='search-results-message'></p>
+          <div class="detail-outer">
+            <p id='search-results-message'></p>
+            <div class="col-sm-12 detail-boxes">
+
+            </div>
+            <div class="col-sm-12 detail-boxes">
+
+            </div>
+            <div class="col-sm-12 detail-boxes">
+
+            </div>
+          </div>
           <p>Don't find what you're looking for? Maybe use fewer words or a more general search term.</p>
           <br/>
           <p>If you still have no luck you can contact our <a>customer service</a></p>

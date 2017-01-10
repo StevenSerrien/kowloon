@@ -83,6 +83,11 @@ $( function() {
         $(this).addClass('s-invisible');
     });
 
+    $('input#big-search-input').click(function() {
+      $(this).focus();
+      $("label.search-placeholder").addClass('s-invisible');
+    });
+
     $("input#big-search-input").blur(function() {
         if (($(this).val().length) === 0) {
           $("label.search-placeholder").removeClass('s-invisible');
@@ -97,6 +102,7 @@ $( function() {
       $("input#big-search-input").val('');
       $("label.search-placeholder").removeClass('s-invisible');
       $('#search-results-message').text('');
+      $('div.detail-outer').removeClass('visible');
     });
 
 
@@ -111,6 +117,7 @@ $( function() {
         if (!(searchQuery.length === 0)) {
           console.log('enter');
           $('#search-results-message').text('3 results for the word "' + searchQuery + '"');
+          $('div.detail-outer').addClass('visible');
         }
       }
       else {
