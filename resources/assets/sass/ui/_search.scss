@@ -13,7 +13,7 @@
   transition-timing-function: cubic-bezier(0.7,0,0.3,1);
   opacity: 0;
 
-  h1, h2, h3 {
+  h1, h2, h3, p, a {
     font-family: $font-primary;
     color: $overlay-text-color;
   }
@@ -102,6 +102,36 @@
 .morphsearch-form {
   margin-top: 230px;
 
+  button {
+    background:none!important;
+     border:none;
+     padding:0!important;
+     color: inherit !important;
+     cursor:pointer;
+     float: right;
+     position: relative;
+     top: -30px;
+
+     span {
+       position: relative;
+       display: inline-block;
+       top: 2px;
+     }
+  }
+
+  p {
+    margin-bottom: 0px;
+    display: inline-block;
+  }
+  a {
+    cursor: pointer;
+    opacity: 0.9;
+    text-decoration: underline;
+    &:hover {
+      color: inherit;
+      opacity: 0.7;
+    }
+  }
 
   #big-search-input {
     width: 100%;
@@ -118,6 +148,7 @@
 
   .group {
     position: relative;
+    margin-bottom: 25px;
   }
   label {
     position:absolute;

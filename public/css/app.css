@@ -243,7 +243,7 @@
   height: 68px;
 }
 
-.m-enter-icon, .search_faq_icons_0000_loader, .m-search-icon, .arrow-filter-active, .arrow-filter, .m-close, .search_faq_icons_0005_clear-icon {
+.m-enter-icon, .search_faq_icons_0000_loader, .m-search-icon, .arrow-filter-active, .arrow-filter, .m-close, .m-clear-icon {
   background: url(sprites/fs_sprites.png) no-repeat;
 }
 
@@ -289,7 +289,7 @@
   height: 23px;
 }
 
-.search_faq_icons_0005_clear-icon {
+.m-clear-icon {
   background-position: 0 -103px;
   width: 15px;
   height: 15px;
@@ -753,7 +753,7 @@ a#search {
   opacity: 0;
 }
 
-.morph-search-faq h1, .morph-search-faq h2, .morph-search-faq h3 {
+.morph-search-faq h1, .morph-search-faq h2, .morph-search-faq h3, .morph-search-faq p, .morph-search-faq a {
   font-family: "Arial";
   color: #2b2b2b;
 }
@@ -843,6 +843,39 @@ a#search {
   margin-top: 230px;
 }
 
+.morphsearch-form button {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  color: inherit !important;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  top: -30px;
+}
+
+.morphsearch-form button span {
+  position: relative;
+  display: inline-block;
+  top: 2px;
+}
+
+.morphsearch-form p {
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+.morphsearch-form a {
+  cursor: pointer;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+.morphsearch-form a:hover {
+  color: inherit;
+  opacity: 0.7;
+}
+
 .morphsearch-form #big-search-input {
   width: 100%;
   border: none;
@@ -859,6 +892,7 @@ a#search {
 
 .morphsearch-form .group {
   position: relative;
+  margin-bottom: 25px;
 }
 
 .morphsearch-form label {

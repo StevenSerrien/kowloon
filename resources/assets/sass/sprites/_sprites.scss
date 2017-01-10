@@ -194,7 +194,7 @@
 }
 
 // Icons for search and faq
-.m-enter-icon, .search_faq_icons_0000_loader, .m-search-icon, .arrow-filter-active, .arrow-filter, .m-close, .search_faq_icons_0005_clear-icon{
+.m-enter-icon, .search_faq_icons_0000_loader, .m-search-icon, .arrow-filter-active, .arrow-filter, .m-close, .m-clear-icon{
 	background: url(sprites/fs_sprites.png) no-repeat;
 }
 
@@ -240,7 +240,7 @@
 	height: 23px;
 }
 
-.search_faq_icons_0005_clear-icon{
+.m-clear-icon{
 	background-position: 0 -103px ;
 	width: 15px;
 	height: 15px;

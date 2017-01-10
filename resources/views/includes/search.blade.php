@@ -56,6 +56,10 @@
           <label class='search-placeholder'><span class='m-search-icon'></span>Just start typing and hit<span class='m-enter-icon'></span>to search</label>
           <input id="big-search-input" type="text" name="search" value="">
         </div>
+        <p>Don't find what you're looking for? Maybe use fewer words or a more general search term.</p>
+        <br/>
+        <p>If you still have no luck you can contact our <a>customer service</a></p>
+        <button type="button" name="clear-search">Clear <span class='m-clear-icon'></span></button>
       </form>
     </div>
     <!-- end of Search section -->
