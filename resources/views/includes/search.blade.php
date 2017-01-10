@@ -1,7 +1,7 @@
-<div id="morph-search-faq" class="morph-search-faq open">
+<div id="morph-search-faq" class="morph-search-faq">
   <span id="m-close-button" class='m-close'></span>
   <div class="container">
-    <div id="m-search" class="m-active">
+    <div id="m-search" class="">
       <a id="advanced-filter"class='advanced-filter pointer no-decoration' data-toggle="collapse" data-target="#collapseAdvancedFilter" aria-expanded="false" aria-controls="collapseExample">
         Advanced filter <span class='arrow-filter'></span>
       </a>
