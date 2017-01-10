@@ -60,6 +60,16 @@ div#slider-range {
     float: right;
   }
 
+  .between-amounts {
+    margin-top: 20px;
+    height: 100%;
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    padding-top: 5px;
+  }
+
   #amount_1, #amount_2 {
     margin-top: 20px;
     border: 2px solid #9a9a9a;

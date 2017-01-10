@@ -39,8 +39,13 @@
               </h2>
               <div class="price-slider">
                 <div id="slider-range"></div>
+                <div class="prices outer">
                 <input type="text" id="amount_1" readonly>
+                <div class="between-amounts">
+                  -
+                </div>
                 <input type="text" id="amount_2" readonly>
+                </div>
               </div>
             </div>
           </form>

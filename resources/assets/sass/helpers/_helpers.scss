@@ -32,6 +32,12 @@
   transform: translate(-50%,-50%);
 }
 
+.inner-center-horizontal {
+  position: relative;
+  left: 50%; top: 50%;
+  transform: translate(-50%,-50%);
+}
+
 .half-size {
   font-size: 1em;
 }
