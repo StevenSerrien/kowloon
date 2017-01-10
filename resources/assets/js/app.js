@@ -52,3 +52,7 @@ $('#m-close-button').click(function() {
   $('div#m-faq').removeClass('m-active');
   overlayActive = false;
 });
+
+$('a#advanced-filter').click(function() {
+  $('span.arrow-filter').toggleClass('arrow-filter-active');
+});

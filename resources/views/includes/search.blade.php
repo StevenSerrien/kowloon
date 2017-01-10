@@ -2,8 +2,8 @@
   <span id="m-close-button" class='m-close'></span>
   <div class="container">
     <div id="m-search" class="m-active">
-      <a class='advanced-filter pointer no-decoration' data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-        Advanced filter
+      <a id="advanced-filter"class='advanced-filter pointer no-decoration' data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Advanced filter <span class='arrow-filter'></span>
       </a>
       <form class="morphsearch-form">
 
