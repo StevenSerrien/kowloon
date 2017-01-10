@@ -1,0 +1,46 @@
+// Range Slider
+$range-width: 100% !default;
+
+$range-handle-color: #323232 !default;
+$range-handle-color-hover: #454545 !default;
+$range-handle-size: 20px !default;
+
+$range-track-color: #9a9a9a !default;
+$range-track-height: 5px !default;
+
+$range-label-color: #323232 !default;
+$range-label-width: 60px !default;
+
+/* Style for handlers */
+div#slider-range {
+  &.ui-slider {
+    -webkit-appearance: none !important;
+    width: calc(100% - (#{$range-label-width + 13px})) !important;
+    height: $range-track-height;
+    border-radius: 5px !important;
+    background: $range-track-color !important;
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
+  .ui-slider-range {
+    background-color: $range-track-color;
+  }
+  .ui-slider-handle {
+    appearance: none !important;
+    width: $range-handle-size !important;
+    height: $range-handle-size !important;
+    border-radius: 50% !important;
+    background: $range-handle-color !important;
+    cursor: pointer !important;
+    transition: background .15s ease-in-out !important;
+    border: none;
+    top: -0.6em;
+    &.ui-state-hover {
+      background: $range-handle-color-hover !important;
+    }
+    &:focus {
+      outline:0;
+    }
+  }
+}

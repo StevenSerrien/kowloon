@@ -14,12 +14,16 @@
 @import "ui/carousel";
 @import "ui/hot-items";
 @import "ui/search";
+@import "ui/rangeslider";
+
+// IMPORTANT TO CHECK BEFORE DEPLOYMENT
+@import "notes/notes";
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 //Root
 html {
-  
+
 }
 body {
   background-color:  $body-bg;
