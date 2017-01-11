@@ -130,6 +130,23 @@ $( function() {
     });
 
 
+    //FOR FAQ's ON ABOUT US
+
+    $('span.arrow-filter').click(function() {
+      if($(this).hasClass('collapsed'))
+      {
+        $(this).prev().text('Dit is een opengeklapte vraag.');
+      }
+      else {
+        $(this).prev().text('Dit is een vraag.');
+      }
+    });
+
+    // if( $('#target').hasClass(‘blue’) ) {
+    //   $(document.body).addClass(‘yellow’);
+    // }
+
+
       // BACKUP
       // $('body').on('keydown', function() {
       //   if ($('#m-search').hasClass('m-active')) {

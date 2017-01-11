@@ -1106,8 +1106,17 @@ tag:before {
 #aboutus-section span.arrow-filter {
   display: inline-block;
   position: absolute;
+  background-position: -63px -108px;
+  width: 14px;
+  height: 9px;
   top: 20px;
   right: 15px;
+}
+
+#aboutus-section span.arrow-filter.collapsed {
+  background-position: -31px -104px;
+  width: 9px;
+  height: 14px;
 }
 
 #aboutus-section .answer-block {

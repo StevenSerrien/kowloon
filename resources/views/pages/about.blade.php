@@ -61,21 +61,21 @@
       <h2 class='headtitle'>FREQUENTLY ASKED QUESTIONS</h2>
       <div class="col-xs-12 question-block">
         <h3>Dit is een vraag</h3>
-        <span class='arrow-filter pointer no-decoration' data-toggle="collapse" data-target="#collapseQuestion1" aria-expanded="false" aria-controls="collapseQuestion1"> </span>
+        <span class='arrow-filter pointer no-decoration collapsed' data-toggle="collapse" data-target="#collapseQuestion1" aria-expanded="false" aria-controls="collapseQuestion1"> </span>
         <div id="collapseQuestion1" class="answer-block collapse">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
         </div>
       </div>
       <div class="col-xs-12 question-block">
         <h3>Dit is een vraag</h3>
-        <span class='arrow-filter pointer no-decoration' data-toggle="collapse" data-target="#collapseQuestion2" aria-expanded="false" aria-controls="collapseQuestion2"> </span>
+        <span class='arrow-filter pointer no-decoration collapsed' data-toggle="collapse" data-target="#collapseQuestion2" aria-expanded="false" aria-controls="collapseQuestion2"> </span>
         <div id="collapseQuestion2" class="answer-block collapse">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
         </div>
       </div>
       <div class="col-xs-12 question-block">
         <h3>Dit is een vraag</h3>
-        <span class='arrow-filter pointer no-decoration' data-toggle="collapse" data-target="#collapseQuestion3" aria-expanded="false" aria-controls="collapseQuestion3"> </span>
+        <span class='arrow-filter pointer no-decoration collapsed' data-toggle="collapse" data-target="#collapseQuestion3" aria-expanded="false" aria-controls="collapseQuestion3"> </span>
         <div id="collapseQuestion3" class="answer-block collapse">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
         </div>
