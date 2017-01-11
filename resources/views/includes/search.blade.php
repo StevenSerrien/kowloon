@@ -83,7 +83,7 @@
         <h1 class='big-ass-title'>Frequently Asked Questions</h1>
         <form class="morphsearch-faq-form" onSubmit="return false;">
           <div class="group">
-            <label class='search-placeholder'><span class='m-search-icon'></span>Search on keyword<span class='m-enter-icon'></span></label>
+            <label class='search-placeholder search-placeholder-faq'><span class='m-search-icon'></span>Search on keyword<span class='m-enter-icon'></span></label>
             <input id="big-faq-search-input" type="text" name="search" value="" autocomplete="off">
           </div>
           <div class="search-results">

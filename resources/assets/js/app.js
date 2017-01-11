@@ -105,6 +105,28 @@ $( function() {
       $('div.detail-outer').removeClass('visible');
     });
 
+    // FAQ INPUT
+    var faqInputfield = $('input#big-faq-search-input');
+    var faqClearButton =   $('button#m-faq-clear');
+    var faqLabel = $('label.search-placeholder-faq');
+
+    faqInputfield.click(function() {
+      $(this).focus();
+      faqLabel.addClass('s-invisible');
+    });
+
+    faqInputfield.blur(function() {
+        if (($(this).val().length) === 0) {
+          faqLabel.removeClass('s-invisible');
+        };
+    });
+
+    faqClearButton.click(function() {
+      faqInputfield.val('');
+      faqLabel.removeClass('s-invisible');
+    });
+
+
 
 
     // Put user input in inputfield once he/she starts typing
