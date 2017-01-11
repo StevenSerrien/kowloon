@@ -874,11 +874,20 @@ a#search, a#faq, a#aboutus {
   margin-top: 230px;
 }
 
-.morphsearch-form #search-results-message {
+.morphsearch-faq-form {
+  margin-top: 50px;
+}
+
+.morphsearch-faq-form label.search-placeholder {
+  color: #535353;
+  font-weight: lighter;
+}
+
+.morphsearch-form #search-results-message, .morphsearch-faq-form #search-results-message {
   display: block;
 }
 
-.morphsearch-form button#m-clear {
+.morphsearch-form button#m-clear, .morphsearch-form button#m-faq-clear, .morphsearch-faq-form button#m-clear, .morphsearch-faq-form button#m-faq-clear {
   background: none !important;
   border: none;
   padding: 0 !important;
@@ -892,29 +901,29 @@ a#search, a#faq, a#aboutus {
   height: auto;
 }
 
-.morphsearch-form button#m-clear span {
+.morphsearch-form button#m-clear span, .morphsearch-form button#m-faq-clear span, .morphsearch-faq-form button#m-clear span, .morphsearch-faq-form button#m-faq-clear span {
   position: relative;
   display: inline-block;
   top: 2px;
 }
 
-.morphsearch-form p {
+.morphsearch-form p, .morphsearch-faq-form p {
   margin-bottom: 0px;
   display: inline-block;
 }
 
-.morphsearch-form a {
+.morphsearch-form a, .morphsearch-faq-form a {
   cursor: pointer;
   opacity: 0.9;
   text-decoration: underline;
 }
 
-.morphsearch-form a:hover {
+.morphsearch-form a:hover, .morphsearch-faq-form a:hover {
   color: inherit;
   opacity: 0.7;
 }
 
-.morphsearch-form #big-search-input {
+.morphsearch-form #big-search-input, .morphsearch-form #big-faq-search-input, .morphsearch-faq-form #big-search-input, .morphsearch-faq-form #big-faq-search-input {
   width: 100%;
   border: none;
   background-color: #f9f9f9;
@@ -925,16 +934,16 @@ a#search, a#faq, a#aboutus {
   padding-top: 40px;
 }
 
-.morphsearch-form #big-search-input:focus {
+.morphsearch-form #big-search-input:focus, .morphsearch-form #big-faq-search-input:focus, .morphsearch-faq-form #big-search-input:focus, .morphsearch-faq-form #big-faq-search-input:focus {
   outline: none;
 }
 
-.morphsearch-form .group {
+.morphsearch-form .group, .morphsearch-faq-form .group {
   position: relative;
   margin-bottom: 25px;
 }
 
-.morphsearch-form label {
+.morphsearch-form label, .morphsearch-faq-form label {
   position: absolute;
   top: 0px;
   font-size: 3em;
@@ -943,45 +952,55 @@ a#search, a#faq, a#aboutus {
   z-index: 40;
 }
 
-.morphsearch-form label span {
+.morphsearch-form label span, .morphsearch-faq-form label span {
   display: inline-block;
 }
 
-.morphsearch-form label span.m-search-icon {
+.morphsearch-form label span.m-search-icon, .morphsearch-faq-form label span.m-search-icon {
   margin-right: 40px;
 }
 
-.morphsearch-form label span.m-enter-icon {
+.morphsearch-form label span.m-enter-icon, .morphsearch-faq-form label span.m-enter-icon {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.morphsearch-form label.s-invisible {
+.morphsearch-form label.s-invisible, .morphsearch-faq-form label.s-invisible {
   visibility: hidden;
 }
 
-.morphsearch-form .search-results {
+.morphsearch-form .search-results, .morphsearch-faq-form .search-results {
   position: relative;
 }
 
-.morphsearch-form .detail-outer {
+.morphsearch-form .detail-outer, .morphsearch-faq-form .detail-outer {
   display: none;
 }
 
-.morphsearch-form .detail-outer.visible {
+.morphsearch-form .detail-outer.visible, .morphsearch-faq-form .detail-outer.visible {
   display: block;
 }
 
-.morphsearch-form .detail-outer.visible p#search-results-message {
+.morphsearch-form .detail-outer.visible p#search-results-message, .morphsearch-faq-form .detail-outer.visible p#search-results-message {
   margin-bottom: 15px;
 }
 
-.morphsearch-form .detail-boxes {
+.morphsearch-form .detail-boxes, .morphsearch-faq-form .detail-boxes {
   height: 100px;
   background-color: white;
   margin-bottom: 20px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   position: relative;
+}
+
+div#m-faq .faq-content {
+  margin-top: 250px;
+}
+
+div#m-faq .faq-content > h1 {
+  color: #e27500;
+  text-transform: uppercase;
+  font-family: "Choplin-Medium-DEMO";
 }
 
 /* Style for handlers */
@@ -1132,6 +1151,7 @@ tag:before {
   padding-bottom: 15px;
   padding-top: 15px;
   margin-bottom: 15px;
+  width: 95%;
 }
 
 #aboutus-section .question-block h1, #aboutus-section .question-block h2, #aboutus-section .question-block h3 {
@@ -1185,6 +1205,7 @@ form.contactForm div[class^="row"]:nth-of-type(2), form.contactForm div[class^="
 }
 
 form.contactForm textarea {
+  padding: 10px 11px;
   display: block;
   width: 100%;
 }
@@ -1194,6 +1215,8 @@ form.contactForm textarea {
 JQUERY UI JS en JQUERY CSS UI VERVANGEN DOOR LOKALE BESTANDEN
 COOKIES ON FIRST STARTUP
 GOOGLE ANALYTICS
+openklapbare shit bekijken op about us faq - nu geregeld met jquery, is dit ok?
+validatie op forms in custom javascript?
 
 */
 /*!

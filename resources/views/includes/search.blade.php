@@ -79,6 +79,21 @@
     <!-- end of Search section -->
     <!-- FAQ section -->
     <div id="m-faq" class="">
+      <div class="faq-content">
+        <h1 class='big-ass-title'>Frequently Asked Questions</h1>
+        <form class="morphsearch-faq-form" onSubmit="return false;">
+          <div class="group">
+            <label class='search-placeholder'><span class='m-search-icon'></span>Search on keyword<span class='m-enter-icon'></span></label>
+            <input id="big-faq-search-input" type="text" name="search" value="" autocomplete="off">
+          </div>
+          <div class="search-results">
+            <p>Don't find what you're looking for?</p>
+            <br/>
+            <p>You can always contact our <a>customer service</a>. We're happy to help you!</p>
+            <button id="m-faq-clear" type="button" name="clear-search">Clear <span class='m-clear-icon'></span></button>
+          </div>
+        </form>
+      </div>
     </div>
     <!-- end of FAQ section -->
   </div>

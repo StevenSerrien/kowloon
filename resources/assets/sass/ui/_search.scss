@@ -98,15 +98,24 @@
 
 }
 
-
 .morphsearch-form {
   margin-top: 230px;
+}
 
+.morphsearch-faq-form {
+  margin-top: 50px;
+
+  label.search-placeholder {
+    color: #535353;
+    font-weight: lighter;
+  }
+}
+.morphsearch-form, .morphsearch-faq-form {
   #search-results-message {
     display: block;
   }
 
-  button#m-clear {
+  button#m-clear, button#m-faq-clear {
     background:none!important;
      border:none;
      padding:0!important;
@@ -140,7 +149,9 @@
     }
   }
 
-  #big-search-input {
+
+
+  #big-search-input, #big-faq-search-input {
     width: 100%;
     border: none;
     background-color: #f9f9f9;
@@ -205,5 +216,18 @@
     margin-bottom: 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     position: relative;
+  }
+}
+
+
+div#m-faq {
+  .faq-content {
+    margin-top: 250px;
+
+    & > h1 {
+      color: $text-tertiary-color;
+      text-transform: uppercase;
+      font-family: $font-tertiary;
+    }
   }
 }
