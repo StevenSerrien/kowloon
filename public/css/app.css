@@ -317,6 +317,15 @@
   height: 40px;
 }
 
+div[class^="col-"].no-left-padding {
+  padding-left: 0px;
+}
+
+div[class^="row"].normalize {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -972,6 +981,7 @@ a#search, a#faq, a#aboutus {
   background-color: white;
   margin-bottom: 20px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  position: relative;
 }
 
 /* Style for handlers */
@@ -1074,14 +1084,100 @@ tag:before {
   border-bottom: 9px solid transparent;
 }
 
+.btn {
+  border: none;
+}
+
+.btn.style-1 {
+  background-color: #ff6f9e;
+  color: #ffffff;
+  border-radius: 1px;
+  padding: 10px 20px 10px 20px;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
 #aboutus-section {
   margin-top: 30px;
+  padding-left: 30px;
+}
+
+#aboutus-section span.arrow-filter {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+#aboutus-section .answer-block {
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
+  width: 90%;
+}
+
+#aboutus-section .question-block {
+  background-color: #717171;
+  color: #ffffff;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+#aboutus-section .question-block h1, #aboutus-section .question-block h2, #aboutus-section .question-block h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .branding-letter {
   font-family: "Choplin-ExtraLight-DEMO", serif;
   font-size: 1.5em;
   color: #cecece;
+}
+
+.headtitle + .more-info {
+  padding-left: 0px;
+  padding-right: 150px;
+}
+
+.headtitle + .more-info p:first-of-type {
+  margin-bottom: 30px;
+}
+
+.more-info ul {
+  -webkit-padding-start: 20px;
+}
+
+form.contactForm {
+  margin-bottom: 50px;
+  height: auto;
+}
+
+form.contactForm label {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+form.contactForm input {
+  display: block;
+  width: 100%;
+  min-height: 50px;
+  height: auto;
+}
+
+form.contactForm button {
+  height: auto;
+}
+
+form.contactForm div[class^="row"]:nth-of-type(2), form.contactForm div[class^="row"]:nth-of-type(3) {
+  margin-top: 50px;
+}
+
+form.contactForm textarea {
+  display: block;
+  width: 100%;
 }
 
 /*
@@ -8785,7 +8881,7 @@ body {
   margin-bottom: 100px;
 }
 
-span, p {
+span, p, ul, li {
   color: #ffffff;
 }
 
@@ -8796,6 +8892,16 @@ h2 {
 
 h2 {
   color: white;
+}
+
+.headtitle {
+  font-family: "Choplin-Medium-DEMO";
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+h2.headtitle {
+  font-size: 1.3em;
 }
 
 .inner-container {

@@ -1,0 +1,13 @@
+.btn {
+  border: none;
+
+  &.style-1 {
+   background-color: #ff6f9e;
+   color: $text-primary-color;
+   border-radius: 1px;
+   padding: 10px 20px 10px 20px;
+   width: 100%;
+   font-weight: bolder;
+   font-size: 1.2em;
+  }
+}

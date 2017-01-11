@@ -1,3 +1,19 @@
+
+// Helper class for no left padding on cols
+div[class^="col-"] {
+    &.no-left-padding {
+      padding-left: 0px;
+    }
+}
+
+div[class^="row"] {
+  &.normalize {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
 .bold {
   font-weight: bold;
 }

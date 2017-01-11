@@ -16,6 +16,7 @@
 @import "ui/search";
 @import "ui/rangeslider";
 @import "ui/tag";
+@import "ui/buttons";
 @import "ui/about";
 
 
@@ -35,7 +36,7 @@ body {
 
 }
 
-span, p {
+span, p, ul, li {
   color: $text-primary-color;
 
 }
@@ -47,6 +48,20 @@ h2 {
 
 h2 {
   color: white;
+}
+
+.headtitle {
+  // Choplin medium
+  font-family: $font-tertiary;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+h2 {
+  &.headtitle {
+    // Choplin medium
+    font-size: 1.3em;
+  }
 }
 
 .inner-container {
