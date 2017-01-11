@@ -19,9 +19,11 @@ Route::get('/home', function () {
     return view('pages.home');
 });
 
-Route::get('/search', function () {
-    return view('pages.search');
+
+Route::get('/about', function () {
+    return view('pages.about');
 });
+
 
 Route::post('/subscribe', 'SubscribeController@store');
 

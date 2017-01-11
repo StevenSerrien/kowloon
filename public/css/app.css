@@ -515,7 +515,7 @@ nav#sidemenu hr {
   border-color: #464444;
 }
 
-a#search {
+a#search, a#faq, a#aboutus {
   cursor: pointer;
 }
 

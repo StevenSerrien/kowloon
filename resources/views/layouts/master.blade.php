@@ -11,6 +11,7 @@
         <div class="inner-container">
           @include('includes.search')
           @yield('carousel')
+          @yield('carousel-about')
           <div class="container">
             @yield('content')
 
