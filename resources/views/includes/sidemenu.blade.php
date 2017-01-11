@@ -8,6 +8,9 @@
     <a id="faq" class='sidemenu-item light {{ Request::is('faq') ? 'active' : '' }}'>
     <li class='faq-icon'></li><span class="expanded-element alternative">FAQ</span>
     </a>
+    <a id="aboutus" class='sidemenu-item light {{ Request::is('faq') ? 'active' : '' }}'>
+    <li class='envelope'></li><span class="expanded-element alternative">About us</span>
+    </a>
     <hr>
     <a href="#" class='sidemenu-item'>
     <li class='dog-icon'></li><span class="expanded-element">Dogs</span>

@@ -245,3 +245,25 @@
 	width: 15px;
 	height: 15px;
 }
+
+
+/* SPRITES VOOR MAIL ICONS - SORRY search-results-message */
+.envelope-hover, .envelope{
+	background: url(sprites/mail_sprites.png) no-repeat;
+}
+
+.envelope-hover{
+	width: 58px;
+	height: 40px;
+}
+
+.envelope{
+	background-position: 0 0;
+	width: 58px;
+	height: 40px;
+	&:hover {
+    background-position: 0 -51px;
+		width: 58px;
+		height: 40px;
+  }
+}

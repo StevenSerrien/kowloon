@@ -295,6 +295,28 @@
   height: 15px;
 }
 
+/* SPRITES VOOR MAIL ICONS - SORRY search-results-message */
+.envelope-hover, .envelope {
+  background: url(sprites/mail_sprites.png) no-repeat;
+}
+
+.envelope-hover {
+  width: 58px;
+  height: 40px;
+}
+
+.envelope {
+  background-position: 0 0;
+  width: 58px;
+  height: 40px;
+}
+
+.envelope:hover {
+  background-position: 0 -51px;
+  width: 58px;
+  height: 40px;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -1024,6 +1046,8 @@ div#slider-range .ui-slider-handle:focus {
 /*
 
 JQUERY UI JS en JQUERY CSS UI VERVANGEN DOOR LOKALE BESTANDEN
+COOKIES ON FIRST STARTUP
+GOOGLE ANALYTICS
 
 */
 /*!
