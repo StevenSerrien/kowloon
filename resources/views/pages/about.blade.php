@@ -15,5 +15,9 @@
 @endsection
 
 @section('content')
-
+    <div id='aboutus-section'>
+    <div class="row">
+      <span class='branding-letter'>K</span><tag>about us</tag>
+    </div>
+    </div>
 @endsection
