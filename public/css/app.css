@@ -1123,9 +1123,28 @@ tag span.circle {
   height: 8px;
   display: inline-block;
   position: relative;
-  background-color: #ff6f9e;
   border-radius: 50%;
   margin-right: 5px;
+}
+
+tag span.circle.dogs {
+  background-color: #ff6f9e;
+}
+
+tag span.circle.cats {
+  background-color: #8787ff;
+}
+
+tag span.circle.fish {
+  background-color: #ffb93f;
+}
+
+tag span.circle.birds {
+  background-color: #7bff81;
+}
+
+tag span.circle.hamsters {
+  background-color: #7be5ff;
 }
 
 tag:before {
