@@ -1240,9 +1240,14 @@ tag:before {
   margin-bottom: 500px;
 }
 
-.productlist-section h1, .productlist-section h2, .productlist-section h3, .productlist-section p, .productlist-section a, .productlist-section a:hover, .productlist-section label {
+.productlist-section h2, .productlist-section h3, .productlist-section p, .productlist-section a, .productlist-section a:hover, .productlist-section label {
   font-family: "Arial";
   color: #ffffff;
+}
+
+.productlist-section hr.colored {
+  border-color: #919191;
+  opacity: 0.5;
 }
 
 .productlist-section #advanced-filter-productlist span {
@@ -1278,6 +1283,14 @@ tag:before {
   top: -4px;
   position: relative;
   overflow: hidden;
+}
+
+.productlist-section .hot-items div[class^="col"]:first-child {
+  padding-left: 3px;
+}
+
+.productlist-section .hot-items div[class^="col"] {
+  margin-bottom: 10px;
 }
 
 #aboutus-section {

@@ -2,9 +2,14 @@
   margin-top: 20px;
   margin-bottom: 500px;
 
-  h1, h2, h3, p, a, a:hover, label {
+   h2, h3, p, a, a:hover, label {
     font-family: $font-primary;
     color: $text-primary-color;
+  }
+
+  hr.colored {
+    border-color: rgb(145, 145, 145);
+    opacity: 0.5;
   }
 
   #advanced-filter-productlist span {
@@ -39,5 +44,13 @@
       position: relative;
       overflow: hidden;
     }
+  }
+
+  .hot-items div[class^="col"]:first-child {
+    padding-left: 3px;
+  }
+
+  .hot-items div[class^="col"] {
+    margin-bottom: 10px;
   }
 }
