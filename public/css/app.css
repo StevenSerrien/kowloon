@@ -1004,6 +1004,10 @@ div#m-faq .faq-content > h1 {
   font-family: "Choplin-Medium-DEMO";
 }
 
+div#m-faq #post-data {
+  margin-top: 150px;
+}
+
 /* Style for handlers */
 div#slider-range.ui-slider {
   -webkit-appearance: none;

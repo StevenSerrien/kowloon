@@ -23,16 +23,16 @@ class SubscribeController extends Controller
 
 
         if (!$subscriber->save()) {
-          return redirect('/home')->with('message', 'ERROR! You were not added.');
+          return redirect('/')->with('message', 'ERROR! You were not added.');
 
 
         }
         else {
-          return redirect('/home')->with('message', 'Success!');
+          return redirect('/')->with('message', 'Success!');
         }
       }
       else {
-        return redirect('/home')->with('message', 'You are already in.');
+        return redirect('/')->with('message', 'You are already in.');
       }
 
 

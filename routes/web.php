@@ -11,24 +11,24 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/home', function () {
-    return view('pages.home');
-});
+// Route::get('/home', function () {
+//     return view('pages.home');
+// });
 
 
-Route::get('/about', function () {
-    return view('pages.about');
-});
+// Route::get('/about', function () {
+//     return view('pages.about');
+// });
 
 
 Route::post('/subscribe', 'SubscribeController@store');
 
 Route::get('/faq-post', 'FaqpostController@show');
 
-Route::get('/test', function () {
-    return "testje";
-});
+
+Route::get('/', 'PageController@home');
+Route::get('/about', 'PageController@about');
