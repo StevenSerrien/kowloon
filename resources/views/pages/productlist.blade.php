@@ -67,7 +67,7 @@
   <!-- END OF FILTER -->
   <hr class='colored'>
   <div class="row">
-  <div class="productlist-grid hot-items clearfix">
+  <div class="productlist-grid hot-items {{Request::segment(2)}} clearfix">
     <div class="col-md-6 col-sm-12 outer-productlist">
       <div class="col-xs-6">
         <div class="h-item clearfix">
@@ -161,7 +161,22 @@
       </div>
     </div>
     <div class="col-md-6 col-sm-12 outer-productlist">
+      <div class="h-item featured clearfix">
+        <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+          <ol class="hot-item-indicators">
+            <li class="h-item-indicator-1"></li>
+            <li class="h-item-indicator-2"></li>
+            <li class="h-item-indicator-3"></li>
+          </ol>
+        </div>
 
+        <div class='h-item-textbox'>
+          <h3>Cooling mat</h3>
+          <p>Hier komt een deel van de beschrijvende tekst die bij elk product hoort. Ook terug te vinden in het product detail.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius....</p>
+          <span class="h-item-price">€ 15,49</span>
+          <button class='btn style-1' name="button">Want to know more?</button>
+        </div>
+      </div>
     </div>
   </div>
   </div>

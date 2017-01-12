@@ -1,11 +1,3 @@
-$tag-circle-color-dogs: #ff6f9e;
-$tag-circle-color-cats: #8787ff;
-$tag-circle-color-fish: #ffb93f;
-$tag-circle-color-birds: #7bff81;
-$tag-circle-color-hamsters: #7be5ff;
-
-
-
 tag {
   white-space:nowrap;
     position:relative;
@@ -30,19 +22,19 @@ tag {
         margin-right: 5px;
 
         &.dogs {
-          background-color: $tag-circle-color-dogs;
+          background-color: $color-dogs;
         }
         &.cats {
-          background-color: $tag-circle-color-cats;
+          background-color: $color-cats;
         }
         &.fish {
-          background-color: $tag-circle-color-fish;
+          background-color: $color-fish;
         }
         &.birds {
-          background-color: $tag-circle-color-birds;
+          background-color: $color-birds;
         }
         &.hamsters {
-          background-color: $tag-circle-color-hamsters;
+          background-color: $color-hamsters;
         }
     }
 }
