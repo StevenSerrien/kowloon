@@ -27,6 +27,8 @@ Route::get('/about', function () {
 
 Route::post('/subscribe', 'SubscribeController@store');
 
+Route::get('/faq-post', 'FaqpostController@show');
+
 Route::get('/test', function () {
     return "testje";
 });

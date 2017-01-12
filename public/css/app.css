@@ -837,7 +837,8 @@ a#search, a#faq, a#aboutus {
 }
 
 .morph-search-faq.open {
-  height: 110%;
+  min-height: 110%;
+  height: auto;
   opacity: 1;
 }
 

@@ -64,7 +64,8 @@
   }
 
   &.open {
-    height: 110%;
+    min-height: 110%;
+    height: auto;
     opacity: 1;
 
     .m-close {
