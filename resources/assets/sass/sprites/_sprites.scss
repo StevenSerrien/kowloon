@@ -36,7 +36,7 @@
 	background-position: 0 -301px ;
 	width: 58px;
 	height: 40px;
-  &:hover {
+  &:hover, &.active {
     background-position: -50px -300px;
   }
 }
@@ -52,7 +52,7 @@
 	width: 58px;
 	height: 40px;
 
-  &:hover {
+  &:hover, &.active {
     background-position: -51px -251px ;
   }
 }
@@ -83,7 +83,7 @@
 	background-position: 0 -151px ;
 	width: 58px;
 	height: 40px;
-  &:hover {
+  &:hover, &.active {
     background-position: -50px -151px ;
   }
 
@@ -105,7 +105,7 @@
 	background-position: 0 -102px ;
 	width: 58px;
 	height: 40px;
-  &:hover {
+  &:hover, &.active {
     background-position: -50px -101px ;
   }
 }
@@ -120,7 +120,7 @@
 	background-position: 0 -51px ;
 	width: 58px;
 	height: 40px;
-  &:hover {
+  &:hover, &.active {
     background-position: -50px -52px;
   }
 }
