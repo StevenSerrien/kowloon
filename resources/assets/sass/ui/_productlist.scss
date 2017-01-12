@@ -1,6 +1,6 @@
 .productlist-section {
   margin-top: 20px;
-    
+
 
    h2, h3, p, a, a:hover, label {
     font-family: $font-primary;
@@ -52,5 +52,66 @@
 
   .hot-items div[class^="col"] {
     margin-bottom: 10px;
+  }
+}
+
+.extra-filters {
+  margin-bottom: 13px;
+
+  .select {
+    float: left;
+    display: inline;
+
+    select {
+      background-color: #616161;
+      border: none;
+      padding: 7px 30px 7px 10px;
+      color: white;
+      font-size: 0.9em;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-overflow: '';
+
+      option {
+        background-color: #ffffff;
+        color: $text-primary-two-color;
+        padding: 10px 20px;
+
+        &:hover {
+          background-color: black;
+        }
+      }
+    }
+  }
+  .select:before {
+    content: "";
+    position: absolute;
+    left: 135px;
+    top: 18px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+
+  }
+
+  .select:after {
+    content: "";
+    position: absolute;
+    left: 135px;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+    transform: rotate(180deg);
+  }
+
+  .product-amount {
+    display: inline;
+    color: $text-primary-color;
+    float: right;
   }
 }

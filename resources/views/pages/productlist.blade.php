@@ -66,6 +66,22 @@
   </div>
   <!-- END OF FILTER -->
   <hr class='colored'>
+  <div class="row extra-filters clearfix">
+    <div class="col-xs-12 clearfix">
+      <div class="select">
+        <select>
+          <option selected hidden>Sorty by relevance</option>
+          <option value="price-low">Price: high to low</option>
+          <option value="price-high">Price: high to low</option>
+          <option value="latest">Latest</option>
+          <option value="oldest">Oldest</option>
+        </select>
+      </div>
+      <div class="product-amount">
+        {{Request::segment(2)}} items: <span class="bold">5 of 56</span>
+      </div>
+    </div>
+  </div>
   <div class="row">
   <div class="productlist-grid hot-items {{Request::segment(2)}} clearfix">
     <div class="col-md-6 col-sm-12 outer-productlist">
