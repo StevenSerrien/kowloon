@@ -12,6 +12,7 @@
           @include('includes.search')
           @yield('carousel')
           @yield('carousel-about')
+          @yield('logo-header')
           <div class="container">
             @yield('content')
 

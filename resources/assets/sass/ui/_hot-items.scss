@@ -150,6 +150,10 @@
   position: relative;
   cursor: pointer;
 
+  &.featured {
+    cursor: inherit;
+  }
+
   &:hover .img-overlay{
     background-color: #ff6f9e;
     opacity: 0.86;

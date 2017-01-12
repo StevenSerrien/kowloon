@@ -30,3 +30,4 @@ Route::post('/subscribe', 'SubscribeController@store');
 Route::get('/', 'PageController@home');
 Route::get('/about', 'PageController@about');
 Route::get('/productlist/{animal}', 'PageController@productList');
+Route::get('/productlist/{animal}/{productname}', 'PageController@productDetail');

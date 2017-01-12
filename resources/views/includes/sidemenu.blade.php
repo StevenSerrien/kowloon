@@ -13,19 +13,20 @@
     </a>
     <hr>
     <a href="{{ url('productlist/dogs') }}" class='sidemenu-item'>
-    <li class='dog-icon {{ Request::is('productlist/dogs') ? 'active' : '' }}'></li><span class="expanded-element">Dogs</span>
+    <li class='dog-icon {{ Request::is('productlist/dogs*') ? 'active' : '' }}'></li><span class="expanded-element">Dogs</span>
     </a>
     <a href="{{ url('productlist/cats') }}" class='sidemenu-item'>
-    <li class='cat-icon {{ Request::is('productlist/cats') ? 'active' : '' }}'></li><span class="expanded-element">Cats</span>
+    <li class='cat-icon {{ Request::is('productlist/cats*') ? 'active' : '' }}'>
+    </li><span class="expanded-element">Cats</span>
     </a>
     <a href="{{ url('productlist/fish') }}" class='sidemenu-item'>
-    <li class='fish-icon {{ Request::is('productlist/fish') ? 'active' : '' }}'></li><span class="expanded-element">Fish</span>
+    <li class='fish-icon {{ Request::is('productlist/fish*') ? 'active' : '' }}'></li><span class="expanded-element">Fish</span>
     </a>
     <a href="{{ url('productlist/birds') }}" class='sidemenu-item'>
-    <li class='owl-icon {{ Request::is('productlist/birds') ? 'active' : '' }}'></li><span class="expanded-element">Birds</span>
+    <li class='owl-icon {{ Request::is('productlist/birds*') ? 'active' : '' }}'></li><span class="expanded-element">Birds</span>
     </a>
     <a href="{{ url('productlist/hamsters') }}" class='sidemenu-item'>
-    <li class='hamster-icon {{ Request::is('productlist/hamsters') ? 'active' : '' }}'></li><span class="expanded-element">Small animals</span>
+    <li class='hamster-icon {{ Request::is('productlist/hamsters*') ? 'active' : '' }}'></li><span class="expanded-element">Small animals</span>
     </a>
   </ul>
   <span class='brand-name collapsed-element'>K<span class='brand-name-expanded'>OWLOON</span></span>

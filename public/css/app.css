@@ -684,6 +684,10 @@ a#search, a#faq, a#aboutus {
   cursor: pointer;
 }
 
+.h-item.featured {
+  cursor: inherit;
+}
+
 .h-item:hover .img-overlay {
   background-color: #ff6f9e;
   opacity: 0.86;

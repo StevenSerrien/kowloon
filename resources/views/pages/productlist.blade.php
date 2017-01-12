@@ -86,6 +86,7 @@
   <div class="productlist-grid hot-items {{Request::segment(2)}} clearfix">
     <div class="col-md-6 col-sm-12 outer-productlist">
       <div class="col-xs-6">
+        <a href="/productlist/{{Request::segment(2)}}/cooling-mat">
         <div class="h-item clearfix">
           <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
@@ -106,8 +107,10 @@
             <span class="h-item-price">€ 15,49</span>
           </div>
         </div>
+        </a>
       </div>
       <div class="col-xs-6">
+        <a href="/productlist/{{Request::segment(2)}}/cooling-mat">
         <div class="h-item clearfix">
           <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
@@ -128,8 +131,10 @@
             <span class="h-item-price">€ 15,49</span>
           </div>
         </div>
+      </a>
       </div>
       <div class="col-xs-6">
+        <a href="/productlist/{{Request::segment(2)}}/cooling-mat">
         <div class="h-item clearfix">
           <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
@@ -150,8 +155,10 @@
             <span class="h-item-price">€ 15,49</span>
           </div>
         </div>
+      </a>
       </div>
       <div class="col-xs-6">
+        <a href="/productlist/{{Request::segment(2)}}/cooling-mat">
         <div class="item-stack">
         <div class="h-item stacked stack-1"></div>
         <div class="h-item stacked stack-2"></div>
@@ -174,6 +181,7 @@
           </div>
         </div>
       </div>
+    </a>
       </div>
     </div>
     <div class="col-md-6 col-sm-12 outer-productlist">
@@ -190,7 +198,9 @@
           <h3>Cooling mat</h3>
           <p>Hier komt een deel van de beschrijvende tekst die bij elk product hoort. Ook terug te vinden in het product detail.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius....</p>
           <span class="h-item-price">€ 15,49</span>
+          <a href="/productlist/{{Request::segment(2)}}/cooling-mat">
           <button class='btn style-1' name="button">Want to know more?</button>
+        </a>
         </div>
       </div>
     </div>
