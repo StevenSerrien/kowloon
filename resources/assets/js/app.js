@@ -232,6 +232,23 @@ $( function() {
       }
     });
 
+
+    // CAROUSEL WITH THUMBNAILS
+
+    $('[id^=carousel-selector-]').click( function(){
+            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+            var id = parseInt(id);
+            $('#thumbnail-carousel').carousel(id);
+            $('[id^=carousel-selector-]').addClass('not-active')
+    });
+
+    $('#thumbnail-carousel').on('slid.bs.carousel', function (e) {
+
+                 var id = $('.item.active').data('slide-number');
+                 $('[id^=carousel-selector-' + id + ']').removeClass('not-active');
+                console.log($('[id^=carousel-selector-' + id + ']'));
+        });
+
     // if( $('#target').hasClass(‘blue’) ) {
     //   $(document.body).addClass(‘yellow’);
     // }

@@ -7,7 +7,7 @@
 <div class='productdetail-section'>
   <div class="row">
     <div id='carousel-bounding-box' class="col-md-6">
-      <div class="carousel slide" id="thumbnail-carousel">
+      <div class="carousel slide" id="thumbnail-carousel" data-interval="false">
         <div class="carousel-inner">
           <div class="active item" data-slide-number="0">
             <img src="{{URL::asset('/images/hot-item-dog.png')}}">
@@ -26,34 +26,25 @@
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a> --}}
           </div>
-          <div class="thumbnail-container clearfix" id="thumbnail-selector">
-
+          <div class="thumbnail-container clearfix" id="thumbnail-selector" >
             <ul class="hide-bullets clearfix">
               <li class="col-xs-4">
-
                 <a class="thumbnail active" id="carousel-selector-0">
                   <div class="inactive-overlay"></div>
                   <img src="{{URL::asset('/images/hot-item-dog.png')}}">
-
                 </a>
               </li>
-
               <li class="col-xs-4">
                 <a class="thumbnail not-active" id="carousel-selector-1">
                   <div class="inactive-overlay"></div>
-
                   <img src="{{URL::asset('/images/hot-item-dog.png')}}">
-
                 </a>
               </li>
-
               <li class="col-xs-4">
                 <a class="thumbnail not-active" id="carousel-selector-2">
                   <div class="inactive-overlay"></div>
                   <img src="{{URL::asset('/images/hot-item-dog.png')}}">
-
                 </a>
-
               </li>
             </ul>
           </div>
