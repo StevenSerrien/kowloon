@@ -6,7 +6,7 @@
 @section('content')
 <div class='productdetail-section'>
   <div class="row">
-    <div id='carousel-bounding-box' class="col-md-6">
+    <div id='carousel-bounding-box clearfix' class="col-md-6 clearfix">
       <div class="carousel slide" id="thumbnail-carousel" data-interval="false">
         <div class="carousel-inner">
           <div class="active item" data-slide-number="0">
@@ -33,18 +33,21 @@
                   <div class="inactive-overlay"></div>
                   <img src="{{URL::asset('/images/hot-item-dog.png')}}">
                 </a>
+                <p>woordje tekst</p>
               </li>
               <li class="col-xs-4">
                 <a class="thumbnail not-active" id="carousel-selector-1">
                   <div class="inactive-overlay"></div>
                   <img src="{{URL::asset('/images/hot-item-dog.png')}}">
                 </a>
+                <p>woordje tekst</p>
               </li>
               <li class="col-xs-4">
                 <a class="thumbnail not-active" id="carousel-selector-2">
                   <div class="inactive-overlay"></div>
                   <img src="{{URL::asset('/images/hot-item-dog.png')}}">
                 </a>
+                <p>woordje tekst</p>
               </li>
             </ul>
           </div>

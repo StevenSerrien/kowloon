@@ -70,8 +70,8 @@ $( function() {
 
       var var1 = ($(window).scrollTop() + 400 +  ($('#post-data').height()/100*4) );
       var var2 = $('#post-data').height();
-      console.log(var1);
-      console.log(var2);
+      // console.log(var1);
+      // console.log(var2);
 
       // console.log($(window).height() + ' >= ' + $('#morph-search-faq').height());
 
@@ -243,11 +243,9 @@ $( function() {
     });
 
     $('#thumbnail-carousel').on('slid.bs.carousel', function (e) {
-
                  var id = $('.item.active').data('slide-number');
                  $('[id^=carousel-selector-' + id + ']').removeClass('not-active');
-                console.log($('[id^=carousel-selector-' + id + ']'));
-        });
+    });
 
     // if( $('#target').hasClass(‘blue’) ) {
     //   $(document.body).addClass(‘yellow’);

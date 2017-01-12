@@ -52,7 +52,7 @@
 
 #thumbnail-carousel {
   padding: 4px 4px;
-  $thumbnail-carousel-highlight-size: 325px;
+  $thumbnail-carousel-highlight-size: 283px;
   background-color: $hot-items-background;
   border: 1px solid $hot-items-border;
 
@@ -72,6 +72,10 @@
       padding-left: 2px;
       padding-right: 2px;
 
+      p {
+        margin-bottom: 0px;
+      }
+
       img {
         height: 100px;
         width: 100%;
@@ -88,6 +92,7 @@
          border: none;
          background-color: inherit;
          padding: 0px;
+         cursor: pointer;
 
          .inactive-overlay {
            opacity: 1;
@@ -96,6 +101,8 @@
            width: 98%;
            height: 100px;
          }
+
+
 
          &.not-active {
           background-color: white;
