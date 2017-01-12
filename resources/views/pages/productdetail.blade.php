@@ -83,5 +83,64 @@
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class='headtitle size-2x'>Gerelateerde producten</h1>
+      <div class="carousel slide media-carousel" id="related-products">
+        <div class="carousel-inner">
+          <div class="item  active">
+            <div class="row">
+              <div class="col-md-3 first">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+              <div class="col-md-3 middle">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+              <div class="col-md-3 middle">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+              <div class="col-md-3 last">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-3 first">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+              <div class="col-md-3 middle">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+              <div class="col-md-3 middle">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+              <div class="col-md-3 last">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-3 first">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+              <div class="col-md-3 middle">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+              <div class="col-md-3 middle">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+              <div class="col-md-3 last">
+                <a class="thumbnail" href="#"><img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a data-slide="prev" href="#related-products" class="left carousel-control"><span class='icon'>‹</span></a>
+        <a data-slide="next" href="#related-products" class="right carousel-control"><span class='icon'>›</span></a>
+      </div>
+    </div>
+  </div>
 </div>
 @endsection
