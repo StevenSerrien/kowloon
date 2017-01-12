@@ -57,6 +57,10 @@ $('a#advanced-filter').click(function() {
   $('span.arrow-filter').toggleClass('arrow-filter-active');
 });
 
+$('a#advanced-filter-productlist').click(function() {
+  $('span.arrow-filter').toggleClass('arrow-filter-active');
+});
+
 
 $( function() {
   // INFINITE scroll

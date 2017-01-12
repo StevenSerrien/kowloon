@@ -1115,17 +1115,38 @@ div#slider-range-productlist .ui-slider-handle:focus {
   margin-top: 15px;
 }
 
-.price-slider #amount_1, .price-slider #amount_productlist_1 {
+.prices.outer .between-amounts {
+  margin-top: 0px !important;
+  color: #ffffff !important;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .prices.outer {
+    margin-top: 30px !important;
+  }
+}
+
+.price-slider #amount_1, .prices.outer #amount_1 {
   width: 30%;
   float: left;
 }
 
-.price-slider #amount_2, .price-slider #amount_productlist_2 {
+.price-slider #amount_productlist_1, .prices.outer #amount_productlist_1 {
+  width: 30%;
+  float: left;
+}
+
+.price-slider #amount_productlist_2, .prices.outer #amount_productlist_2 {
   width: 30%;
   float: right;
 }
 
-.price-slider .between-amounts {
+.price-slider #amount_2, .prices.outer #amount_2 {
+  width: 30%;
+  float: right;
+}
+
+.price-slider .between-amounts, .prices.outer .between-amounts {
   margin-top: 20px;
   height: 100%;
   width: 50px;
@@ -1135,7 +1156,7 @@ div#slider-range-productlist .ui-slider-handle:focus {
   padding-top: 5px;
 }
 
-.price-slider #amount_1, .price-slider #amount_2, .price-slider #amount_productlist_1, .price-slider #amount_productlist_2 {
+.price-slider #amount_1, .price-slider #amount_2, .prices.outer #amount_1, .prices.outer #amount_2 {
   margin-top: 20px;
   border: 2px solid #9a9a9a;
 }
@@ -1216,6 +1237,7 @@ tag:before {
 
 .productlist-section {
   margin-top: 20px;
+  margin-bottom: 500px;
 }
 
 .productlist-section h1, .productlist-section h2, .productlist-section h3, .productlist-section p, .productlist-section a, .productlist-section a:hover, .productlist-section label {

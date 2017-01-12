@@ -83,14 +83,40 @@ div#slider-range-productlist {
 }
 
 /* PRICE SLIDER */
+
 .price-slider {
   margin-top: 15px;
-  #amount_1, #amount_productlist_1 {
+}
+
+.prices.outer {
+  .between-amounts {
+    margin-top: 0px !important;
+    color: $text-primary-color !important;
+  }
+
+  @media only screen and (max-device-width : 1024px) {
+    margin-top: 30px !important;
+  }
+}
+.price-slider, .prices.outer {
+
+  #amount_1 {
+    width: 30%;
+    float: left;
+  }
+  #amount_productlist_1 {
     width: 30%;
     float: left;
   }
 
-  #amount_2, #amount_productlist_2 {
+  #amount_productlist_2 {
+    width: 30%;
+    float:right
+  }
+
+
+
+  #amount_2 {
     width: 30%;
     float: right;
   }
@@ -105,7 +131,7 @@ div#slider-range-productlist {
     padding-top: 5px;
   }
 
-  #amount_1, #amount_2, #amount_productlist_1, #amount_productlist_2 {
+  #amount_1, #amount_2 {
     margin-top: 20px;
     border: 2px solid #9a9a9a;
   }
