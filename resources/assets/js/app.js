@@ -113,7 +113,7 @@ $( function() {
 
   };
 
-  // RANGESLIDER
+  // RANGESLIDER on SEARCH
     $( "#slider-range" ).slider({
       range: true,
       min: 8.00,
@@ -126,6 +126,20 @@ $( function() {
     });
     $( "#amount_1" ).val( "€           " + $( "#slider-range" ).slider( "values", 0 ) + ",00");
     $( "#amount_2" ).val( "€           " + $( "#slider-range" ).slider( "values", 1 ) + ",00");
+
+    // RANGESLIDER on SEARCH
+      $( "#slider-range-productlist" ).slider({
+        range: true,
+        min: 8.00,
+        max: 499.00,
+        values: [ 8, 499 ],
+        slide: function( event, ui ) {
+          $('#amount_productlist_1').val( "€           " + ui.values[ 0 ] + ",00");
+          $('#amount_productlist_2').val( "€           " + ui.values[ 1 ] + ",00");
+        }
+      });
+      $( "#amount_productlist_1" ).val( "€           " + $( "#slider-range" ).slider( "values", 0 ) + ",00");
+      $( "#amount_productlist_2" ).val( "€           " + $( "#slider-range" ).slider( "values", 1 ) + ",00");
 
     // SEARCH INPUT
     $("label.search-placeholder").click(function() {

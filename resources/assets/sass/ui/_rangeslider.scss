@@ -1,8 +1,10 @@
-// Range Slider
+// Range Slider for SEARCH
 $range-width: 100% !default;
 
 $range-handle-color: #323232 !default;
-$range-handle-color-hover: #454545 !default;
+$range-handle-color-two: #eeeeee !default;
+$range-handle-color-hover: #e9e9e9 !default;
+$range-handle-color-hover-two: #d1d1d1 !default;
 $range-handle-size: 20px !default;
 
 $range-track-color: #9a9a9a !default;
@@ -47,15 +49,48 @@ div#slider-range {
   }
 }
 
+div#slider-range-productlist {
+  &.ui-slider {
+    -webkit-appearance: none ;
+    width: 100% ;
+    height: $range-track-height;
+    border-radius: 5px ;
+    background: $range-track-color ;
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
+  .ui-slider-range {
+    background-color: $range-track-color;
+  }
+  .ui-slider-handle {
+    appearance: none ;
+    width: $range-handle-size ;
+    height: $range-handle-size ;
+    border-radius: 50% ;
+    background: $range-handle-color-two ;
+    cursor: pointer ;
+    transition: background .15s ease-in-out ;
+    border: none;
+    top: -0.6em;
+    &.ui-state-hover {
+      background: $range-handle-color-hover-two ;
+    }
+    &:focus {
+      outline:0;
+    }
+  }
+}
+
 /* PRICE SLIDER */
 .price-slider {
   margin-top: 15px;
-  #amount_1 {
+  #amount_1, #amount_productlist_1 {
     width: 30%;
     float: left;
   }
 
-  #amount_2 {
+  #amount_2, #amount_productlist_2 {
     width: 30%;
     float: right;
   }
@@ -70,7 +105,7 @@ div#slider-range {
     padding-top: 5px;
   }
 
-  #amount_1, #amount_2 {
+  #amount_1, #amount_2, #amount_productlist_1, #amount_productlist_2 {
     margin-top: 20px;
     border: 2px solid #9a9a9a;
   }
