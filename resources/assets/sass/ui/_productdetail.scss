@@ -58,3 +58,25 @@ ol.hot-item-indicators {
   margin-bottom: 0px;
   }
 }
+
+.product-specs {
+  margin-top: 50px;
+  border: 2px solid $main-border-color;
+  padding: 10px 15px;
+
+  h2,h3 {
+    font-family: $font-primary, sans-serif;
+    margin-top: 0px;
+  }
+  h3 {
+    text-transform: uppercase;
+  }
+  h3 + p.spec-detail {
+    margin-left: 30px;
+    font-size: 1em;
+
+    detail {
+      margin-right: 20px;
+    }
+  }
+}

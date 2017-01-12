@@ -72,5 +72,16 @@
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="product-specs">
+        <h2 class='size-2x'>Specifications</h2>
+        <h3 class='size-1x'>Dimensions</h3>
+        <p class='spec-detail'><detail><span class='bold'>S - </span>Ø 53x18cm</detail><detail><span class='bold'>M - </span>Ø 53x18cm</detail><detail><span class='bold'>L - </span>Ø 53x18cm</detail></p>
+        <h3 class='size-1x'>Titel</h3>
+        <p class='spec-detail'<detail><span class='bold'>S - </span>Hier komt technische tekst</detail></p>
+      </div>
+    </div>
+  </div>
 </div>
 @endsection
