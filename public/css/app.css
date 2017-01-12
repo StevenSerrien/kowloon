@@ -1118,6 +1118,16 @@ tag {
   font-size: 0.85em;
 }
 
+tag span.circle {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  position: relative;
+  background-color: #ff6f9e;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
 tag:before {
   font-size: 0.5em;
   position: absolute;
@@ -1145,6 +1155,10 @@ tag:before {
   width: 100%;
   font-weight: bolder;
   font-size: 1.2em;
+}
+
+.productlist-section {
+  margin-top: 20px;
 }
 
 #aboutus-section {
