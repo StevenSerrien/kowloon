@@ -6,8 +6,58 @@
 @section('content')
 <div class='productdetail-section'>
   <div class="row">
-    <div class="col-md-6">
+    <div id='carousel-bounding-box' class="col-md-6">
+      <div class="carousel slide" id="thumbnail-carousel">
+        <div class="carousel-inner">
+          <div class="active item" data-slide-number="0">
+            <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+          </div>
+            <div class="item" data-slide-number="1">
+              <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+            </div>
 
+            <div class="item" data-slide-number="2">
+              <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+            </div>
+            {{-- <a class="left carousel-control" href="#thumbnail-carousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#thumbnail-carousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a> --}}
+          </div>
+          <div class="thumbnail-container clearfix" id="thumbnail-selector">
+
+            <ul class="hide-bullets clearfix">
+              <li class="col-xs-4">
+
+                <a class="thumbnail active" id="carousel-selector-0">
+                  <div class="inactive-overlay"></div>
+                  <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+
+                </a>
+              </li>
+
+              <li class="col-xs-4">
+                <a class="thumbnail not-active" id="carousel-selector-1">
+                  <div class="inactive-overlay"></div>
+
+                  <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+
+                </a>
+              </li>
+
+              <li class="col-xs-4">
+                <a class="thumbnail not-active" id="carousel-selector-2">
+                  <div class="inactive-overlay"></div>
+                  <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+
+                </a>
+
+              </li>
+            </ul>
+          </div>
+        </div>
     </div>
     <div class="col-md-6">
       <span class='branding-letter'>K</span><tag><span class='circle {{Request::segment(2)}}'></span>{{Request::segment(2)}}</tag><tag>Splash 'n Fun</tag>

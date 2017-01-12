@@ -1438,6 +1438,81 @@ tag:before {
   font-family: "Arial";
 }
 
+#carousel-bounding-box {
+  height: 93%;
+}
+
+#thumbnail-carousel {
+  padding: 4px 4px;
+  background-color: #565656;
+  border: 1px solid #717171;
+}
+
+#thumbnail-carousel .thumbnail-container {
+  margin-top: 10px;
+}
+
+#thumbnail-carousel ul {
+  list-style: none;
+  padding: 0px;
+  -webkit-padding-start: 0px;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+}
+
+#thumbnail-carousel ul li[class^="col-"] {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#thumbnail-carousel ul li[class^="col-"] img {
+  height: 100px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#thumbnail-carousel ul li[class^="col-"] a {
+  margin-bottom: 0px;
+}
+
+#thumbnail-carousel ul li[class^="col-"] .thumbnail {
+  border: none;
+  background-color: inherit;
+  padding: 0px;
+}
+
+#thumbnail-carousel ul li[class^="col-"] .thumbnail.active {
+  padding: 1px;
+  background-color: white;
+}
+
+#thumbnail-carousel ul li[class^="col-"] .thumbnail.not-active {
+  background-color: white;
+}
+
+#thumbnail-carousel ul li[class^="col-"] .thumbnail.not-active .inactive-overlay {
+  opacity: 0.4;
+  position: absolute;
+  z-index: 5;
+  color: white;
+  background-color: white;
+  width: 98%;
+  height: 100px;
+}
+
+#thumbnail-carousel .carousel-inner {
+  height: 325px;
+}
+
+#thumbnail-carousel .carousel-inner > div.item.active > img, #thumbnail-carousel .carousel-inner > div.item > img {
+  height: 325px !important;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .geometry-shapes span {
   width: 30px;
   height: 30px;
