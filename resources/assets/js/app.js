@@ -91,7 +91,7 @@ $( function() {
 	        })
 	        .fail(function(jqXHR, ajaxOptions, thrownError)
 	        {
-	              alert('server not responding...');
+	              
 	        });
 	}
 

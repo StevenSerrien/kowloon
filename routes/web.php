@@ -27,8 +27,5 @@
 
 Route::post('/subscribe', 'SubscribeController@store');
 
-Route::get('/faq-post', 'FaqpostController@show');
-
-
 Route::get('/', 'PageController@home');
 Route::get('/about', 'PageController@about');

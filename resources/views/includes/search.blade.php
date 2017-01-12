@@ -93,9 +93,12 @@
             <button id="m-faq-clear" type="button" name="clear-search">Clear <span class='m-clear-icon'></span></button>
           </div>
         </form>
-        <div class="col-md-12" id="post-data">
+        <div id="post-data">
         @include('includes.faqposts')
-      </div>
+        </div>
+        <div class="ajax-load">
+          Scroll down for more questions!
+        </div>
       </div>
     </div>
     <!-- end of FAQ section -->

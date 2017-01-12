@@ -9,7 +9,7 @@ class PageController extends Controller
 {
   public function about(Request $request)
   {
-    $posts = Faqpost::paginate(5);
+    $posts = Faqpost::paginate(2);
     if ($request->ajax()) {
       $view = view('includes.faqposts',compact('posts'))->render();
           return response()->json(['html'=>$view]);
@@ -19,7 +19,7 @@ class PageController extends Controller
 
   public function home(Request $request)
   {
-    $posts = Faqpost::paginate(5);
+    $posts = Faqpost::paginate(2);
     if ($request->ajax()) {
       $view = view('includes.faqposts',compact('posts'))->render();
           return response()->json(['html'=>$view]);

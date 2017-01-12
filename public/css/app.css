@@ -1008,6 +1008,21 @@ div#m-faq #post-data {
   margin-top: 150px;
 }
 
+div#m-faq #post-data .question-block {
+  background-color: white;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.12);
+  padding-bottom: 10px;
+}
+
+div#m-faq #post-data .question-block .answer-block {
+  padding-left: 20px;
+}
+
+div#m-faq #post-data .question-block h1, div#m-faq #post-data .question-block h2, div#m-faq #post-data .question-block h3, div#m-faq #post-data .question-block p {
+  color: #535353;
+}
+
 /* Style for handlers */
 div#slider-range.ui-slider {
   -webkit-appearance: none;

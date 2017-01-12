@@ -10,7 +10,7 @@ class FaqpostController extends Controller
   public function show(Request $request)
   {
     // return Faqpost::paginate(5);
-    $posts = Faqpost::paginate(5);
+    $posts = Faqpost::paginate(25);
     //
     if ($request->ajax()) {
       $view = view('includes.faqposts',compact('posts'))->render();

@@ -1,12 +1,8 @@
 @foreach($posts as $post)
-<div>
-	<h3><a href="">{{ $post->question }}</a></h3>
-	<p>{{ str_limit($post->answer, 400) }}</p>
-
-	<div class="text-right">
-		<button class="btn btn-success">Read More</button>
-	</div>
-
-	<hr style="margin-top:5px;">
+<div class='col-xs-12 question-block'>
+	<h3>{{ $post->question }}</h3>
+  <div class="answer-block">
+    <p>{{ str_limit($post->answer, 400) }}</p>
+  </div>
 </div>
 @endforeach
