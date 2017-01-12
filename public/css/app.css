@@ -243,7 +243,7 @@
   height: 68px;
 }
 
-.m-enter-icon, .search_faq_icons_0000_loader, .m-search-icon, .arrow-filter-active, .arrow-filter, .m-close, .m-clear-icon {
+.m-enter-icon, .f-loader, .m-search-icon, .arrow-filter-active, .arrow-filter, .m-close, .m-clear-icon {
   background: url(sprites/fs_sprites.png) no-repeat;
 }
 
@@ -253,7 +253,7 @@
   height: 28px;
 }
 
-.search_faq_icons_0000_loader {
+.f-loader {
   background-position: 0 0;
   width: 48px;
   height: 48px;
@@ -1021,6 +1021,16 @@ div#m-faq #post-data .question-block .answer-block {
 
 div#m-faq #post-data .question-block h1, div#m-faq #post-data .question-block h2, div#m-faq #post-data .question-block h3, div#m-faq #post-data .question-block p {
   color: #535353;
+}
+
+div#m-faq .ajax-load {
+  position: relative;
+}
+
+div#m-faq .ajax-load span.f-loader {
+  position: absolute;
+  display: inline-block;
+  left: 45%;
 }
 
 /* Style for handlers */

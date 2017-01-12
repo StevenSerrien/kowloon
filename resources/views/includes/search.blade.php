@@ -93,11 +93,11 @@
             <button id="m-faq-clear" type="button" name="clear-search">Clear <span class='m-clear-icon'></span></button>
           </div>
         </form>
-        <div id="post-data">
+        <div id="post-data" class='clearfix'>
         @include('includes.faqposts')
         </div>
-        <div class="ajax-load">
-          Scroll down for more questions!
+        <div class="ajax-load text-center">
+          <span class='f-loader text-center'> </span>
         </div>
       </div>
     </div>

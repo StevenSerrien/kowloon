@@ -63,10 +63,19 @@ $( function() {
   var page = 1;
   $(window).scroll(function() {
     if ($('#m-faq').hasClass('m-active')) {
-      if($(window).scrollTop() + $(window).height() >= $(document).height()) {
-	        page++;
+
+      var var1 = ($(window).scrollTop() + 400 +  ($('#post-data').height()/100*4) );
+      var var2 = $('#post-data').height();
+      console.log(var1);
+      console.log(var2);
+
+      // console.log($(window).height() + ' >= ' + $('#morph-search-faq').height());
+
+      if(var1 >= var2) {
+	        page++
 	        loadMoreData(page);
 	    }
+
     }
 	});
 
@@ -82,7 +91,7 @@ $( function() {
 	        })
 	        .done(function(data)
 	        {
-	            if(data.html == " "){
+	            if(data.html.length == "0"){
 	                $('.ajax-load').html("No more records found");
 	                return;
 	            }
@@ -91,7 +100,7 @@ $( function() {
 	        })
 	        .fail(function(jqXHR, ajaxOptions, thrownError)
 	        {
-	              
+
 	        });
 	}
 

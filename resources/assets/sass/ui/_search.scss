@@ -249,6 +249,16 @@ div#m-faq {
         color: $text-primary-two-color;
       }
 
+
+    }
+  }
+
+  .ajax-load {
+    position: relative;
+    span.f-loader {
+      position: absolute;
+      display: inline-block;
+      left: 45%;
     }
   }
 }
