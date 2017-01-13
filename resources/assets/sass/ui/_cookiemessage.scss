@@ -30,3 +30,15 @@ div.cookie-message {
     background-color: $text-tertiary-color;
   }
 }
+
+
+
+.js-cookie-consent.cookie-consent {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  &.exited {
+    opacity: 0;
+    display: none;
+  }
+
+}

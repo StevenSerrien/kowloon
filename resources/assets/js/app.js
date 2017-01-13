@@ -247,6 +247,11 @@ $( function() {
                  $('[id^=carousel-selector-' + id + ']').removeClass('not-active');
     });
 
+
+    // COOKIES
+    $('span.cookie-exit-cross').click(function() {
+      $('.js-cookie-consent.cookie-consent').addClass('exited');
+    });
     // if( $('#target').hasClass(‘blue’) ) {
     //   $(document.body).addClass(‘yellow’);
     // }

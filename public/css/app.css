@@ -1879,6 +1879,17 @@ div.cookie-message button.btn.style-1 {
   background-color: #e27500;
 }
 
+.js-cookie-consent.cookie-consent {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.js-cookie-consent.cookie-consent.exited {
+  opacity: 0;
+  display: none;
+}
+
 /*
 
 JQUERY UI JS en JQUERY CSS UI VERVANGEN DOOR LOKALE BESTANDEN

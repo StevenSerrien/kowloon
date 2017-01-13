@@ -12,9 +12,7 @@
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     </head>
     <body>
-      <?php if( $user_is_first_timer ): ?>
-      <?php endif; ?>
-      @include('includes.cookiemessage')
+      @include('cookieConsent::index')
       <div class="outer-container">
         @include('includes.sidemenu')
 
