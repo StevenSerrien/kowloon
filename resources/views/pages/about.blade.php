@@ -40,18 +40,24 @@
           <div class="row normalize">
             <div class="col-sm-3 col-xs-12 no-left-padding">
             <label for="email">E-mail</label>
-            <input class="borderless" type="email" name="email" id="email" value="" placeholder='name@domain.com' required />
+            <input class="borderless" name="email" id="email" value="" placeholder='name@domain.com'  />
+            <div class="form-error-message">
+              <p id='email-error'>Invalid email.</p>
+            </div>
             </div>
           </div>
         <div class="row normalize">
         <div class="col-sm-9 col-xs-12 no-left-padding">
           <label for="email">Your message</label>
-          <textarea rows="7" cols="80" placeholder='Write your message here.' required></textarea>
+          <textarea rows="7" cols="80" id='message' placeholder='Write your message here.' ></textarea>
+          <div class="form-error-message">
+            <p id='message-error'>Woops! That message is invalid.</p>
+          </div>
         </div>
         </div>
         <div class="row normalize">
           <div class="col-xs-12 col-sm-3 no-left-padding">
-            <button class='btn style-1' type="submit" name="button">Send</button>
+            <button id='sendMessage' class='btn style-1' type="submit" name="button">Send</button>
           </div>
         </div>
         </form>

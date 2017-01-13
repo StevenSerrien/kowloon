@@ -9,5 +9,9 @@
    width: 100%;
    font-weight: bolder;
    font-size: 1.2em;
+
+   &.success {
+     background-color: rgb(62, 212, 113);
+   }
   }
 }

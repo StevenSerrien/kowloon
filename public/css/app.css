@@ -1408,6 +1408,10 @@ tag:before {
   font-size: 1.2em;
 }
 
+.btn.style-1.success {
+  background-color: #3ed471;
+}
+
 .faq-area span.arrow-filter {
   display: inline-block;
   position: absolute;
@@ -1852,6 +1856,11 @@ form.contactForm textarea {
   margin-top: 10px;
   color: #f27568;
   margin-bottom: 0px;
+  opacity: 0;
+}
+
+.form-error-message p.has-errors {
+  opacity: 1;
 }
 
 div.cookie-message {

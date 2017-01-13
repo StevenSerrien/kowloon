@@ -65,5 +65,10 @@ form.contactForm {
     margin-top: 10px;
     color: rgb(242, 117, 104);
     margin-bottom: 0px;
+    opacity: 0;
+
+    &.has-errors {
+      opacity: 1;
+    }
   }
 }
