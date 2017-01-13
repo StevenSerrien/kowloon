@@ -1,7 +1,7 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Static Logo -->
   <div class="carousel-logo">
-    <img src="{{ asset('images/kowloon-logo.png') }}" alt="kowloon logo">
+    <img src="{{ secure_asset('images/kowloon-logo.png') }}" alt="kowloon logo">
   </div>
 
   <!-- Indicators -->
@@ -14,11 +14,11 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="{{ asset('images/carousel/kowloon-hero-1.png') }}" alt="Big promotional hero image - first">
+      <img src="{{ secure_asset('images/carousel/kowloon-hero-1.png') }}" alt="Big promotional hero image - first">
     </div>
 
     <div class="item">
-      <img src="{{ asset('images/carousel/kowloon-hero-2.png') }}" alt="Big promotional hero image - second">
+      <img src="{{ secure_asset('images/carousel/kowloon-hero-2.png') }}" alt="Big promotional hero image - second">
     </div>
   </div>
 

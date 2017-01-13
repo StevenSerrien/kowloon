@@ -62,7 +62,7 @@
       <div class="col-md-3 col-xs-3">
         <a href="/productlist/dogs/cooling-mat">
         <div class="h-item clearfix">
-          <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+          <div class="img" style="background-image:url({{ secure_asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
               <li class="h-item-indicator-1"></li>
               <li class="h-item-indicator-2"></li>
@@ -86,7 +86,7 @@
       <div class="col-md-3 col-xs-3">
         <a href="/productlist/dogs/cooling-mat">
         <div class="h-item clearfix">
-          <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+          <div class="img" style="background-image:url({{ secure_asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
               <li class="h-item-indicator-1"></li>
               <li class="h-item-indicator-2"></li>
@@ -110,7 +110,7 @@
       <div class="col-md-3 col-xs-3">
         <a href="/productlist/dogs/cooling-mat">
         <div class="h-item clearfix">
-          <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+          <div class="img" style="background-image:url({{ secure_asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
               <li class="h-item-indicator-1"></li>
               <li class="h-item-indicator-2"></li>
@@ -137,7 +137,7 @@
         <div class="h-item stacked stack-1"></div>
         <div class="h-item stacked stack-2"></div>
         <div class="h-item stacked clearfix">
-          <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+          <div class="img" style="background-image:url({{ secure_asset('images/hot-item-dog.png') }})">
             <div class="number-count">
               <span class='bold'>4</span>
             </div>
@@ -171,7 +171,7 @@
       <div class="subscribe-form span-blocks inner-center">
         <span class="size-1x bold">Subscribe to our newsletter</span>
         <span>Lorem ipsum dolor sit amet.</span>
-        <form action="{{ url('/subscribe') }}" method="post">
+        <form action="{{ secure_url('/subscribe') }}" method="post">
           <input class="borderless" type="email" name="email" placeholder="domain @ name.com" value="">
           <button class="borderless paste-left" type="submit" name="button">OK</button>
         </form>

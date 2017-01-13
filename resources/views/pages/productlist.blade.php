@@ -88,7 +88,7 @@
       <div class="col-xs-6">
         <a href="/productlist/{{Request::segment(2)}}/cooling-mat">
         <div class="h-item clearfix">
-          <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+          <div class="img" style="background-image:url({{ secure_asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
               <li class="h-item-indicator-1"></li>
               <li class="h-item-indicator-2"></li>
@@ -112,7 +112,7 @@
       <div class="col-xs-6">
         <a href="/productlist/{{Request::segment(2)}}/cooling-mat">
         <div class="h-item clearfix">
-          <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+          <div class="img" style="background-image:url({{ secure_asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
               <li class="h-item-indicator-1"></li>
               <li class="h-item-indicator-2"></li>
@@ -136,7 +136,7 @@
       <div class="col-xs-6">
         <a href="/productlist/{{Request::segment(2)}}/cooling-mat">
         <div class="h-item clearfix">
-          <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+          <div class="img" style="background-image:url({{ secure_asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
               <li class="h-item-indicator-1"></li>
               <li class="h-item-indicator-2"></li>
@@ -163,7 +163,7 @@
         <div class="h-item stacked stack-1"></div>
         <div class="h-item stacked stack-2"></div>
         <div class="h-item stacked clearfix">
-          <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+          <div class="img" style="background-image:url({{ secure_asset('images/hot-item-dog.png') }})">
             <div class="number-count">
               <span class='bold'>4</span>
             </div>
@@ -186,7 +186,7 @@
     </div>
     <div class="col-md-6 col-sm-12 outer-productlist">
       <div class="h-item featured clearfix">
-        <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
+        <div class="img" style="background-image:url({{ secure_asset('images/hot-item-dog.png') }})">
           <ol class="hot-item-indicators">
             <li class="h-item-indicator-1"></li>
             <li class="h-item-indicator-2"></li>

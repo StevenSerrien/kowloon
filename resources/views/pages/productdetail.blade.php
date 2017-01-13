@@ -10,14 +10,14 @@
       <div class="carousel slide" id="thumbnail-carousel" data-interval="false">
         <div class="carousel-inner">
           <div class="active item" data-slide-number="0">
-            <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+            <img src="{{secure_asset('/images/hot-item-dog.png')}}">
           </div>
             <div class="item" data-slide-number="1">
-              <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+              <img src="{{secure_asset('/images/hot-item-dog.png')}}">
             </div>
 
             <div class="item" data-slide-number="2">
-              <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+              <img src="{{secure_asset('/images/hot-item-dog.png')}}">
             </div>
             {{-- <a class="left carousel-control" href="#thumbnail-carousel" role="button" data-slide="prev">
               <span class="glyphicon glyphicon-chevron-left"></span>
@@ -31,21 +31,21 @@
               <li class="col-xs-4">
                 <a class="thumbnail active" id="carousel-selector-0">
                   <div class="inactive-overlay"></div>
-                  <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+                  <img src="{{secure_asset('/images/hot-item-dog.png')}}">
                 </a>
                 <p>woordje tekst</p>
               </li>
               <li class="col-xs-4">
                 <a class="thumbnail not-active" id="carousel-selector-1">
                   <div class="inactive-overlay"></div>
-                  <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+                  <img src="{{secure_asset('/images/hot-item-dog.png')}}">
                 </a>
                 <p>woordje tekst</p>
               </li>
               <li class="col-xs-4">
                 <a class="thumbnail not-active" id="carousel-selector-2">
                   <div class="inactive-overlay"></div>
-                  <img src="{{URL::asset('/images/hot-item-dog.png')}}">
+                  <img src="{{secure_asset('/images/hot-item-dog.png')}}">
                 </a>
                 <p>woordje tekst</p>
               </li>
@@ -97,7 +97,7 @@
                       <span>view details</span>
                     </div>
                   </div>
-                  <img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}">
+                  <img alt="foto van gerelateerd product" src="{{secure_asset('/images/hot-item-dog.png')}}">
                 </a>
               </div>
               <div class="col-md-3 middle">
@@ -107,7 +107,7 @@
                       <span>view details</span>
                     </div>
                   </div>
-                  <img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}">
+                  <img alt="foto van gerelateerd product" src="{{secure_asset('/images/hot-item-dog.png')}}">
                 </a>
               </div>
               <div class="col-md-3 middle">
@@ -117,7 +117,7 @@
                       <span>view details</span>
                     </div>
                   </div>
-                  <img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}">
+                  <img alt="foto van gerelateerd product" src="{{secure_asset('/images/hot-item-dog.png')}}">
                 </a>
               </div>
               <div class="col-md-3 last">
@@ -127,7 +127,7 @@
                       <span>view details</span>
                     </div>
                   </div>
-                  <img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}">
+                  <img alt="foto van gerelateerd product" src="{{secure_asset('/images/hot-item-dog.png')}}">
                 </a>
               </div>
             </div>
@@ -141,7 +141,7 @@
                       <span>view details</span>
                     </div>
                   </div>
-                  <img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}">
+                  <img alt="foto van gerelateerd product" src="{{secure_asset('/images/hot-item-dog.png')}}">
                 </a>
               </div>
               <div class="col-md-3 middle">
@@ -151,7 +151,7 @@
                       <span>view details</span>
                     </div>
                   </div>
-                  <img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}">
+                  <img alt="foto van gerelateerd product" src="{{secure_asset('/images/hot-item-dog.png')}}">
                 </a>
               </div>
               <div class="col-md-3 middle">
@@ -161,7 +161,7 @@
                       <span>view details</span>
                     </div>
                   </div>
-                  <img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}">
+                  <img alt="foto van gerelateerd product" src="{{secure_asset('/images/hot-item-dog.png')}}">
                 </a>
               </div>
               <div class="col-md-3 last">
@@ -171,7 +171,7 @@
                       <span>view details</span>
                     </div>
                   </div>
-                  <img alt="foto van gerelateerd product" src="{{URL::asset('/images/hot-item-dog.png')}}">
+                  <img alt="foto van gerelateerd product" src="{{secure_asset('/images/hot-item-dog.png')}}">
                 </a>
               </div>
             </div>
@@ -225,7 +225,7 @@
     <div class="subscribe-form span-blocks inner-center">
       <span class="size-1x bold">Subscribe to our newsletter</span>
       <span>Lorem ipsum dolor sit amet.</span>
-      <form action="{{ url('/subscribe') }}" method="post">
+      <form action="{{ secure_url('/subscribe') }}" method="post">
         <input class="borderless" type="email" name="email" placeholder="domain @ name.com" value="">
         <button class="borderless paste-left" type="submit" name="button">OK</button>
       </form>
