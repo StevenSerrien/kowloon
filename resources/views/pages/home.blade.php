@@ -2,13 +2,8 @@
 
 @extends('layouts.master')
 
-@section('title', 'Page Title')
-
-@section('sidebar')
-    @parent
-
-    <p>This is appended to the master sidebar.</p>
-@endsection
+@section('title', 'Kowloon - Uw webshop voor dierenartikelen.')
+@section('description', 'Kowloon - De winkel waar je alles vindt voor je dieren. Van klein tot groot, van kat tot hond. Voedsel, speelgoed en meer.')
 
 @section('carousel')
   @include('includes.carousel')

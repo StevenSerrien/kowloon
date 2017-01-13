@@ -1,5 +1,8 @@
 @extends('layouts.master')
 
+@section('title', 'Product Kowloon - Details over dit product.')
+@section('description', 'Kowloon - Lees hier over de uitgebreide specificaties van het product.')
+
 @section('logo-header')
   @include('includes.logoheader')
 @endsection

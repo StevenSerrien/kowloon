@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+
+@section('title', 'Producten Kowloon - Alle producten voor je dieren.')
+@section('description', 'Kowloon - Bekijk al onze artikelen voor uw dieren hier.')
+
 @section('carousel')
   @include('includes.carousel')
 @endsection

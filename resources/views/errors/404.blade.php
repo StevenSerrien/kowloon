@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('title', 'Kowloon - 404 Oops.')
+@section('description', 'Kowloon - Deze pagina is niet gevonden.')
 
 @section('content')
 <div class='row'>

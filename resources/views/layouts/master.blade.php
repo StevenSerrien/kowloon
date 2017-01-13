@@ -7,7 +7,8 @@
 ?>
 <html>
     <head>
-        <title>Kowloon - Webshop voor dieren</title>
+        <title>@yield('title')</title>
+        <meta name="description" content="@yield('description')">
         <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     </head>

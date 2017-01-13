@@ -1,5 +1,8 @@
 @extends('layouts.master')
 
+@section('title', 'Over Kowloon - Contacteer ons.')
+@section('description', 'Kowloon - Meer informatie over ons. Hulp nodig? Twijfel niet en contacteer ons.')
+
 @section('carousel-about')
   <div id="big-hero-aboutus" class="carousel slide">
     <!-- Static Logo -->
