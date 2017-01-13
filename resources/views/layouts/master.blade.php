@@ -9,8 +9,9 @@
     <head>
         <title>@yield('title')</title>
         <meta name="description" content="@yield('description')">
-        <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
+        <link rel="stylesheet" href="{{ secure_url('css/app.css') }}">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="shortcut icon" href="{{ secure_asset('favicon.ico') }}">
     </head>
     <body>
       <!-- Google Analytics -->
@@ -43,7 +44,7 @@
         </div>
 
       </div>
-      <script type="text/javascript" src="{{ elixir('js/app.js') }}"></script>
+      <script type="text/javascript" src="{{ secure_url('js/app.js') }}"></script>
       <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     </body>
 </html>
