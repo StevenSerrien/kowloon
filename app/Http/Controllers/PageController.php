@@ -46,4 +46,9 @@ class PageController extends Controller
       }
     return view('pages.productdetail',compact('posts'));
   }
+
+  public function contact(Request $request)
+  {
+    return redirect('/about');
+  }
 }

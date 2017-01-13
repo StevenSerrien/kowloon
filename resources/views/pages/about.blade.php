@@ -36,7 +36,7 @@
       </div>
       <div class="col-sm-12 no-left-padding">
         <h2 class='headtitle'>LEAVE A MESSAGE</h2>
-        <form class="contactForm" action="" method="post">
+        <form id='contactFormy' class="contactForm" >
           <div class="row normalize">
             <div class="col-sm-3 col-xs-12 no-left-padding">
             <label for="email">E-mail</label>

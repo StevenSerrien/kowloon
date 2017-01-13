@@ -1848,6 +1848,12 @@ form.contactForm textarea {
   width: 100%;
 }
 
+.form-error-message p {
+  margin-top: 10px;
+  color: #f27568;
+  margin-bottom: 0px;
+}
+
 div.cookie-message {
   padding-top: 30px;
   padding-bottom: 30px;

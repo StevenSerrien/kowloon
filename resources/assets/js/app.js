@@ -6,6 +6,7 @@
  */
 
 require('./bootstrap');
+require('./contact-validation');
 
 
 $('.m-expand').click(function() {
@@ -63,6 +64,8 @@ $('a#advanced-filter-productlist').click(function() {
 
 
 $( function() {
+
+  
   // INFINITE scroll
   var page = 1;
   $(window).scroll(function() {
