@@ -57,7 +57,7 @@
         </form>
       </div>
     </div>
-    <div class="row">
+    <div class="row faq-area">
       <h2 class='headtitle'>FREQUENTLY ASKED QUESTIONS</h2>
       <div class="col-xs-12 question-block">
         <h3>Dit is een vraag</h3>

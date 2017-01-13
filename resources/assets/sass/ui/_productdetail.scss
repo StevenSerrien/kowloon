@@ -1,6 +1,7 @@
 .logo-header {
   width: 100%;
   height: 200px;
+  margin-bottom: 50px;
 }
 
 .headtitle + h2 {
@@ -38,6 +39,15 @@
 
 
 .productdetail-section {
+
+section#subscribe {
+  &.subscribe-on-productdetail {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+}
+
+
 h1, h2, h3, p {
   color: $text-primary-color;
 }

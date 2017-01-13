@@ -1392,6 +1392,43 @@ tag:before {
   font-size: 1.2em;
 }
 
+.faq-area span.arrow-filter {
+  display: inline-block;
+  position: absolute;
+  background-position: -63px -108px;
+  width: 14px;
+  height: 9px;
+  top: 20px;
+  right: 15px;
+}
+
+.faq-area span.arrow-filter.collapsed {
+  background-position: -31px -104px;
+  width: 9px;
+  height: 14px;
+}
+
+.faq-area .answer-block {
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
+  width: 90%;
+}
+
+.faq-area .question-block {
+  background-color: #717171;
+  color: #ffffff;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.faq-area .question-block h1, .faq-area .question-block h2, .faq-area .question-block h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .productlist-section {
   margin-top: 20px;
 }
@@ -1514,6 +1551,7 @@ tag:before {
 .logo-header {
   width: 100%;
   height: 200px;
+  margin-bottom: 50px;
 }
 
 .headtitle + h2 {
@@ -1539,6 +1577,11 @@ tag:before {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 30px solid #828282;
+}
+
+.productdetail-section section#subscribe.subscribe-on-productdetail {
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .productdetail-section h1, .productdetail-section h2, .productdetail-section h3, .productdetail-section p {
@@ -1734,41 +1777,8 @@ a.view-more:hover {
   padding-left: 30px;
 }
 
-#aboutus-section span.arrow-filter {
-  display: inline-block;
-  position: absolute;
-  background-position: -63px -108px;
-  width: 14px;
-  height: 9px;
-  top: 20px;
-  right: 15px;
-}
-
-#aboutus-section span.arrow-filter.collapsed {
-  background-position: -31px -104px;
-  width: 9px;
-  height: 14px;
-}
-
-#aboutus-section .answer-block {
-  margin-top: 10px;
-  padding-left: 30px;
-  padding-right: 20px;
-  width: 90%;
-}
-
 #aboutus-section .question-block {
-  background-color: #717171;
-  color: #ffffff;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  margin-bottom: 15px;
   width: 95%;
-}
-
-#aboutus-section .question-block h1, #aboutus-section .question-block h2, #aboutus-section .question-block h3 {
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .branding-letter {

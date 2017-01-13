@@ -60,6 +60,7 @@
     </div>
     <div class="hot-items clearfix">
       <div class="col-md-3 col-xs-3">
+        <a href="/productlist/dogs/cooling-mat">
         <div class="h-item clearfix">
           <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
@@ -80,8 +81,10 @@
             <span class="h-item-price">€ 15,49</span>
           </div>
         </div>
+      </a>
       </div>
       <div class="col-md-3 col-xs-3">
+        <a href="/productlist/dogs/cooling-mat">
         <div class="h-item clearfix">
           <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
@@ -102,8 +105,10 @@
             <span class="h-item-price">€ 15,49</span>
           </div>
         </div>
+      </a>
       </div>
       <div class="col-md-3 col-xs-3">
+        <a href="/productlist/dogs/cooling-mat">
         <div class="h-item clearfix">
           <div class="img" style="background-image:url({{ URL::asset('images/hot-item-dog.png') }})">
             <ol class="hot-item-indicators">
@@ -124,8 +129,10 @@
             <span class="h-item-price">€ 15,49</span>
           </div>
         </div>
+      </a>
       </div>
       <div class="col-md-3 col-xs-3">
+        <a href="/productlist/dogs/cooling-mat">
         <div class="item-stack">
         <div class="h-item stacked stack-1"></div>
         <div class="h-item stacked stack-2"></div>
@@ -148,6 +155,7 @@
           </div>
         </div>
       </div>
+    </a>
       </div>
 
     </div>

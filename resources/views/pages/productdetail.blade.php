@@ -185,5 +185,54 @@
       <a class='view-more' href="/productlist/{{Request::segment(2)}}">view more</a>
     </div>
   </div>
+  <div class="row faq-area">
+    <div class="col-xs-12 ">
+      <h1 class='headtitle size-2x'>Frequently asked questions</h1>
+      <div class="col-xs-12 question-block">
+        <h3>Dit is een vraag</h3>
+        <span class='arrow-filter pointer no-decoration collapsed' data-toggle="collapse" data-target="#collapseQuestion1" aria-expanded="false" aria-controls="collapseQuestion1"> </span>
+        <div id="collapseQuestion1" class="answer-block collapse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
+        </div>
+      </div>
+      <div class="col-xs-12 question-block">
+        <h3>Dit is een vraag</h3>
+        <span class='arrow-filter pointer no-decoration collapsed' data-toggle="collapse" data-target="#collapseQuestion2" aria-expanded="false" aria-controls="collapseQuestion2"> </span>
+        <div id="collapseQuestion2" class="answer-block collapse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
+        </div>
+      </div>
+      <div class="col-xs-12 question-block">
+        <h3>Dit is een vraag</h3>
+        <span class='arrow-filter pointer no-decoration collapsed' data-toggle="collapse" data-target="#collapseQuestion3" aria-expanded="false" aria-controls="collapseQuestion3"> </span>
+        <div id="collapseQuestion3" class="answer-block collapse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <a class='view-more' href="/">More questions?</a>
+  </div>
 </div>
+<section id="subscribe" class='subscribe-on-productdetail'>
+  <div class="col-md-7 subscribe-hero">
+    <div class="subscribe-text">
+      <span>discover amazing<br/>Kowloon deals!</span>
+      <span>only in our newsletter</span>
+    </div>
+  </div>
+  <div class="col-md-5 outer">
+    <div class="subscribe-form span-blocks inner-center">
+      <span class="size-1x bold">Subscribe to our newsletter</span>
+      <span>Lorem ipsum dolor sit amet.</span>
+      <form action="{{ url('/subscribe') }}" method="post">
+        <input class="borderless" type="email" name="email" placeholder="domain @ name.com" value="">
+        <button class="borderless paste-left" type="submit" name="button">OK</button>
+      </form>
+      @if(session('message'))
+      <span>{{ session('message') }}</span>
+      @endif
+    </div>
+  </div>
+</section>
 @endsection

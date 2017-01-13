@@ -29,5 +29,7 @@
     <li class='hamster-icon {{ Request::is('productlist/hamsters*') ? 'active' : '' }}'></li><span class="expanded-element">Small animals</span>
     </a>
   </ul>
+  <a href="{{ url('/') }}">
   <span class='brand-name collapsed-element'>K<span class='brand-name-expanded'>OWLOON</span></span>
+  </a>
 </nav>
