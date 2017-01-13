@@ -80,3 +80,16 @@ ol.hot-item-indicators {
     }
   }
 }
+
+a.view-more {
+  color: $text-primary-color;
+  text-decoration: underline;
+  font-family: $font-tertiary, serif;
+  font-size: 1.2em;
+  float: right;
+
+  &:hover {
+    color: $text-primary-color;
+    opacity: 0.8;
+  }
+}

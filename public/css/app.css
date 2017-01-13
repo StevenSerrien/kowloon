@@ -1585,6 +1585,19 @@ tag:before {
   margin-right: 20px;
 }
 
+a.view-more {
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: "Choplin-Medium-DEMO", serif;
+  font-size: 1.2em;
+  float: right;
+}
+
+a.view-more:hover {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
 .media-carousel div.icon-details {
   position: relative;
   background-image: url("../images/view-details.png");
@@ -1609,6 +1622,42 @@ tag:before {
 }
 
 .media-carousel.dogs .thumbnail:hover .img-overlay {
+  opacity: 0.8;
+}
+
+.media-carousel.cats .img-overlay {
+  background-color: #8787ff;
+  opacity: 0;
+}
+
+.media-carousel.cats .thumbnail:hover .img-overlay {
+  opacity: 0.8;
+}
+
+.media-carousel.fish .img-overlay {
+  background-color: #ffb93f;
+  opacity: 0;
+}
+
+.media-carousel.fish .thumbnail:hover .img-overlay {
+  opacity: 0.8;
+}
+
+.media-carousel.birds .img-overlay {
+  background-color: #7bff81;
+  opacity: 0;
+}
+
+.media-carousel.birds .thumbnail:hover .img-overlay {
+  opacity: 0.8;
+}
+
+.media-carousel.hamsters .img-overlay {
+  background-color: #7be5ff;
+  opacity: 0;
+}
+
+.media-carousel.hamsters .thumbnail:hover .img-overlay {
   opacity: 0.8;
 }
 

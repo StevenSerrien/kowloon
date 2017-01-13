@@ -31,6 +31,42 @@ $media-item-height: 150px;
       opacity: 0.8;
     }
   }
+  &.cats {
+    .img-overlay {
+      background-color: $color-cats;
+      opacity: 0;
+    }
+    .thumbnail:hover .img-overlay {
+      opacity: 0.8;
+    }
+  }
+  &.fish {
+    .img-overlay {
+      background-color: $color-fish;
+      opacity: 0;
+    }
+    .thumbnail:hover .img-overlay {
+      opacity: 0.8;
+    }
+  }
+  &.birds {
+    .img-overlay {
+      background-color: $color-birds;
+      opacity: 0;
+    }
+    .thumbnail:hover .img-overlay {
+      opacity: 0.8;
+    }
+  }
+  &.hamsters {
+    .img-overlay {
+      background-color: $color-hamsters;
+      opacity: 0;
+    }
+    .thumbnail:hover .img-overlay {
+      opacity: 0.8;
+    }
+  }
   .carousel-inner {
     .item {
 

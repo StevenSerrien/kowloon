@@ -181,6 +181,9 @@
         <a data-slide="next" href="#related-products" class="right carousel-control"><span class='icon'>›</span></a>
       </div>
     </div>
+    <div class="col-xs-12">
+      <a class='view-more' href="/productlist/{{Request::segment(2)}}">view more</a>
+    </div>
   </div>
 </div>
 @endsection
