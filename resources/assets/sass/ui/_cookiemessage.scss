@@ -1,0 +1,32 @@
+$cookie-body-bg: #e6cfb9;
+
+div.cookie-message {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: $cookie-body-bg;
+  min-height: 210px;
+  z-index: 11010;
+
+  span.cookie.picture {
+    float: right;
+    display:block;
+  }
+
+  span.cookie-exit-cross {
+    position: absolute;
+    display:block;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+  }
+
+  .headtitle {
+    text-transform: none;
+    color: $text-tertiary-color;
+  }
+
+  button.btn.style-1 {
+    width: 50%;
+    background-color: $text-tertiary-color;
+  }
+}

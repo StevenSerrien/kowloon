@@ -44,6 +44,6 @@ class PageController extends Controller
       $view = view('includes.faqposts',compact('posts'))->render();
           return response()->json(['html'=>$view]);
       }
-    return view('pages.productDetail',compact('posts'));
+    return view('pages.productdetail',compact('posts'));
   }
 }

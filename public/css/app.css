@@ -317,6 +317,22 @@
   height: 40px;
 }
 
+.cookie-exit-cross, .cookie {
+  background: url(sprites/cookie_sprites.png) no-repeat;
+}
+
+.cookie-exit-cross {
+  background-position: 0 -140px;
+  width: 17px;
+  height: 16px;
+}
+
+.cookie {
+  background-position: 0 0;
+  width: 184px;
+  height: 123px;
+}
+
 div[class^="col-"].no-left-padding {
   padding-left: 0px;
 }
@@ -458,9 +474,9 @@ nav#sidemenu ul a:first-child {
 
 .sidemenu-item {
   display: block;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  margin-top: 5px;
   overflow: hidden;
   width: 160px;
 }
@@ -1830,6 +1846,37 @@ form.contactForm textarea {
   padding: 10px 11px;
   display: block;
   width: 100%;
+}
+
+div.cookie-message {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #e6cfb9;
+  min-height: 210px;
+  z-index: 11010;
+}
+
+div.cookie-message span.cookie.picture {
+  float: right;
+  display: block;
+}
+
+div.cookie-message span.cookie-exit-cross {
+  position: absolute;
+  display: block;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+div.cookie-message .headtitle {
+  text-transform: none;
+  color: #e27500;
+}
+
+div.cookie-message button.btn.style-1 {
+  width: 50%;
+  background-color: #e27500;
 }
 
 /*

@@ -1,0 +1,16 @@
+.cookie-exit-cross, .cookie{
+	background: url(sprites.png) no-repeat;
+}
+
+.cookie-exit-cross{
+	background-position: 0 -140px ;
+	width: 17px;
+	height: 16px;
+}
+
+.cookie{
+	background-position: 0 0;
+	width: 184px;
+	height: 123px;
+}
+
