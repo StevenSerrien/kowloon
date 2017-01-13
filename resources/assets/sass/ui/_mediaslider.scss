@@ -2,8 +2,35 @@ $media-slider-indicator-border-color:  rgba(#b0acac, 0.22);
 $media-slider-indicator-inner-color: #fff;
 $media-slider-indicator-icon-color: rgb(60, 60, 60);
 
+$media-item-height: 150px;
+
 
 .media-carousel {
+  div.icon-details {
+    position: relative;
+    background-image: url('../images/view-details.png');
+    background-size: contain;
+    width: 105px;
+    height: 105px;
+    margin: auto;
+    text-align: center;
+    span {
+      font-size: 1.3em;
+    position: absolute;
+    bottom: -10px;
+    left: 5px;
+    width: 100%;
+    }
+  }
+  &.dogs {
+    .img-overlay {
+      background-color: $color-dogs;
+      opacity: 0;
+    }
+    .thumbnail:hover .img-overlay {
+      opacity: 0.8;
+    }
+  }
   .carousel-inner {
     .item {
 
@@ -24,8 +51,15 @@ $media-slider-indicator-icon-color: rgb(60, 60, 60);
         border: 1px solid rgb(150, 150, 150);
         background-color: rgb(105, 104, 104);
         border-radius: 0px;
+        position: relative;
+
+        .img-overlay {
+          position: absolute;
+          height: $media-item-height;
+          width: 97%;
+        }
         img {
-          height: 150px !important;
+          height: $media-item-height !important;
           object-fit: cover !important;
 
         }

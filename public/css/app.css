@@ -1585,6 +1585,33 @@ tag:before {
   margin-right: 20px;
 }
 
+.media-carousel div.icon-details {
+  position: relative;
+  background-image: url("../images/view-details.png");
+  background-size: contain;
+  width: 105px;
+  height: 105px;
+  margin: auto;
+  text-align: center;
+}
+
+.media-carousel div.icon-details span {
+  font-size: 1.3em;
+  position: absolute;
+  bottom: -10px;
+  left: 5px;
+  width: 100%;
+}
+
+.media-carousel.dogs .img-overlay {
+  background-color: #ff6f9e;
+  opacity: 0;
+}
+
+.media-carousel.dogs .thumbnail:hover .img-overlay {
+  opacity: 0.8;
+}
+
 .media-carousel .carousel-inner .item div[class^='col-'].first {
   padding-right: 5px;
 }
@@ -1602,6 +1629,13 @@ tag:before {
   border: 1px solid #969696;
   background-color: #696868;
   border-radius: 0px;
+  position: relative;
+}
+
+.media-carousel .carousel-inner .item .thumbnail .img-overlay {
+  position: absolute;
+  height: 150px;
+  width: 97%;
 }
 
 .media-carousel .carousel-inner .item .thumbnail img {
