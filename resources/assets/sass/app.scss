@@ -30,6 +30,18 @@
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+//404
+.missing-section {
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+
+  .big-af {
+    font-size: 15em;
+
+  }
+}
+
 //Root
 html {
 
